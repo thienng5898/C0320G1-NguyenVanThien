@@ -1,0 +1,5 @@
+begin
+   input ly,toan,hoa
+   dtb = (ly + toan + hoa )/3
+   display dtb
+end
