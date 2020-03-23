@@ -1,0 +1,8 @@
+Begin
+  INPUT N là ng?u nhiên 0-9
+  INPUT vào M
+  IF (N == M)
+    Display  "ðúng"         
+  ELSE             
+    Display "sai" 
+End
