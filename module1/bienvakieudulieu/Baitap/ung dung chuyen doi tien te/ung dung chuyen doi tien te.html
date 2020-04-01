@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>swap</title>
+</head>
+<body>
+<form>
+    <label> amout </label>
+    <input id="amout" type="text">
+    <br>
+    <label> From Currency </label>
+    <select id="From Currency">
+    <option value = "Vietnam">Vietnam </option>
+    <option value = "USD">USD </option>
+    </select>
+<br>
+    <label> To Currency </label>
+    <select id="To Currency">
+        <option value ="Vietnam">Vietnam</option>
+        <option value ="USD">USD</option>
+    </select>
+    <br>
+    <input type="button" value="Convert" onclick="Convert()">
+    <br>
+
+<script>
+function Convert() {
+let Fcr = document.getElementById("From Currency").value ;
+let Tcr = document.getElementById('To Currency').value;
+let AMOUT = parseInt(document.getElementById("amout").value);
+if (Fcr == "USD" && Tcr =="Vietnam")
+{
+    alert ("Resuilt :" + (AMOUT*23000) + "VND");
+}
+else if (Fcr == "Vietnam" && Tcr == "USD"){
+    alert ("Resuilt :" +  (AMOUT/23000) + " DOLA ");
+}
+else  if (Fcr == "Vietnam" && Tcr == "Vietnam" ){
+    alert("Resuilt : " +  AMOUT  + " VND ");
+    }
+    else if (Fcr=="USD" && Tcr =="USD"){
+        alert("Resuilt : " +  AMOUT  + " DOLA ");
+    }
+}
+</script>
+</form>
+</body>
+</html>

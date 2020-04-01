@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e09afe84-043d-4353-ba6b-6190acf86a39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nhapmonlaptrinhcanban/thuchanh/nhung javascript/nhung java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bienvakieudulieu/Baitap/bien va kieu du lieu/Chu vi hình tròn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bienvakieudulieu/Baitap/bien va kieu du lieu/Dien tich hinh tron.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bienvakieudulieu/Baitap/bien va kieu du lieu/chuyen doi c sang f.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bienvakieudulieu/Baitap/bien va kieu du lieu/tinh diem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bienvakieudulieu/Baitap/ung dung chuyen doi tien te/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bienvakieudulieu/Baitap/ung dung chuyen doi tien te/ung dung chuyen doi tien te.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bienvakieudulieu/Baitap/ung dung may tinh/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bienvakieudulieu/Baitap/ung dung may tinh/ung dung may tinh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bienvakieudulieu/Thuchanh/khai bao bien va kieu du lieu/dien tich hinh chu nhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bienvakieudulieu/Thuchanh/khai bao bien va kieu du lieu/khaibaobienvakieudulieu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bienvakieudulieu/Thuchanh/khai bao bien va kieu du lieu/kiem tra so boi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bienvakieudulieu/Thuchanh/su dung toan tu/su dung toan tu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nhapmonlaptrinhcanban/thuchanh/clone du an tu git" beforeDir="false" afterPath="$PROJECT_DIR$/nhapmonlaptrinhcanban/thuchanh/clone du an tu git" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nhapmonlaptrinhcanban/thuchanh/clone du an tu git/New Text Document.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nhapmonlaptrinhcanban/thuchanh/nhung javascript/nhung java.html" beforeDir="false" afterPath="$PROJECT_DIR$/nhapmonlaptrinhcanban/thuchanh/nhung javascript/nhung java.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +51,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/nhapmonlaptrinhcanban/thuchanh/nhung javascript" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\C0320G1-NguyenVanThien\module1\nhapmonlaptrinhcanban\thuchanh\nhung javascript" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -48,11 +66,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585560096006</updated>
-      <workItem from="1585560097194" duration="320000" />
+      <workItem from="1585560097194" duration="2043000" />
+      <workItem from="1585628563620" duration="2113000" />
+      <workItem from="1585635173083" duration="14058000" />
+      <workItem from="1585704502381" duration="17174000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585716640038">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585716640038" />
   </component>
 </project>
