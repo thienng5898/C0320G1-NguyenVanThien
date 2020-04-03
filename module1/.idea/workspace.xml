@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e09afe84-043d-4353-ba6b-6190acf86a39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Thuchanh/kiem tra nam nhuan/kiem tra nam nhuan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Thuchanh/luyen tap cau truc if else/cau truc if else.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Thuchanh/thuc hanh cau truc switch case/switch case.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Baitap/cau lech switch-case/cau lenh switch-case.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Baitap/simpleCaculator/maytinhdongian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Baitap/tinh BMI/tinh BMI.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Thuchanh/luyen tap cau truc if else if/if else if.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Thuchanh/su kien ban phim/Nobita.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Thuchanh/su kien chuot/ball.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Thuchanh/su kien chuot/ball.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Thuchanh/thuc hanh cau truc switch case/bai 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Thuchanh/thuc hanh cau truc switch case/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Thuchanh/thuc hanh toan tu/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Thuchanh/thuc hanh toan tu/bai2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bienvakieudulieu/Baitap/ung dung may tinh/ung dung may tinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/bienvakieudulieu/Baitap/ung dung may tinh/ung dung may tinh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cautrucdieukien/Thuchanh/thuc hanh cau truc switch case/switch case.html" beforeDir="false" afterPath="$PROJECT_DIR$/cautrucdieukien/Thuchanh/thuc hanh cau truc switch case/switch case.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nhapmonlaptrinhcanban/thuchanh/clone du an tu git" beforeDir="false" afterPath="$PROJECT_DIR$/nhapmonlaptrinhcanban/thuchanh/clone du an tu git" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nhapmonlaptrinhcanban/thuchanh/clone du an tu git/New Text Document.txt" beforeDir="false" />
     </list>
@@ -17,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -60,6 +71,8 @@
       <workItem from="1585628563620" duration="2113000" />
       <workItem from="1585635173083" duration="14058000" />
       <workItem from="1585704502381" duration="21084000" />
+      <workItem from="1585836699059" duration="2422000" />
+      <workItem from="1585875666511" duration="19963000" />
     </task>
     <servers />
   </component>
@@ -67,9 +80,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585732106541">
+    <state x="447" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585882587413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585732106541" />
+    <state x="447" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1585882587413" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585889927189">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585889927189" />
   </component>
 </project>

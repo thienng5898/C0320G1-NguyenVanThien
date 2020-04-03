@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <img id="myImage" src="https://lh3.googleusercontent.com/proxy/XmppV3YctNl4y-9RzJNvNdZm-8hkeOL2z4DDAU96OYp_9dW-8Ct-SajQ_zGjCzswaO2MTz3sceG2zxpEM1bdkqgfFGN8YRw" />
+    <p>Click button to move the image to right</p>
+    <input type="button" value ='click me' onclick="moveRight()"/>
+
+</body>
+<script>
+    let imgObh = null ;
+    imgObh = document.getElementById('myImage');
+    function  init() {
+        imgObh = document.getElementById('myImage');
+        imgObh.style.position = 'relative';
+        imgObh.style.left = '1px';
+    }
+function moveRight() {
+        imgObh.style.left = parseInt(imgObh.style.left) + 10 +'px';
+
+}
+window.onload = init ;
+
+    
+</script>
+</html>
