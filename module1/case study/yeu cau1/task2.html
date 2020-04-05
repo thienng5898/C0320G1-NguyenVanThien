@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let name = prompt("Họ và Tên: ") ;
+    let cmnd =prompt(" Số CMND: ");
+    let birthday = prompt(" Ngày tháng năm sinh: ");
+    let email = prompt("Địa chỉ email:  ");
+    let address = prompt("Địa chỉ: ");
+    let typeCustomer = prompt("Loại Customer(Diamond, Platinum, Gold, Silver, Member): ");
+    let discount =prompt("Giảm giá: ");
+    let quantityInclude = prompt("Số lượng đi kèm: ");
+    let rentDay = prompt("Số ngày thuê: ");
+    let typeService = prompt("Loại dịch vụ(Villa, House, Room): ");
+    let typeRoom = prompt("Loại phòng thuê(Vip, Business,  Normal): ");
+    let costService ;
+    switch (typeService) {
+        case " Villa" :
+            costService =  500 ;
+        break ;
+        case " House" :
+            costService = 300 ;
+            break;
+            case  "Room":
+                costService =100 ;
+                break ;
+    }
+    let cost = costService * rentDay * (1-(discount/100));
+    alert("Họ và tên: " + name +"\n" +
+        "Số tiền phải trả: " + cost +" $"+"\n"+
+        "Số CMND: " + cmnd + "\n" +
+        "Ngày Sinh: " + birthday +"\n" +
+        "Email: " + email + "\n" +
+        "Địa chi: " + address + "\n" +
+        "Loại Customer: " + typeCustomer + "\n" +
+        "Giảm giá: " + discount + "\n" +
+        "Số lượng đi kèm: " + quantityInclude + "\n" +
+        "Số ngày thuê: " + rentDay + "\n" +
+        "Loại dịch vụ: " + typeService + "\n" +
+        "Loại phòng: " + typeRoom);
+</script>
+</body>
+</html>

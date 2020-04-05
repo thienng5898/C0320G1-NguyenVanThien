@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e09afe84-043d-4353-ba6b-6190acf86a39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Baitap/cau lech switch-case/cau lenh switch-case.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Baitap/simpleCaculator/maytinhdongian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Baitap/tinh BMI/tinh BMI.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Thuchanh/luyen tap cau truc if else if/if else if.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Thuchanh/su kien ban phim/Nobita.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Thuchanh/su kien chuot/ball.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Thuchanh/su kien chuot/ball.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Thuchanh/thuc hanh cau truc switch case/bai 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Thuchanh/thuc hanh cau truc switch case/bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Thuchanh/thuc hanh toan tu/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Thuchanh/thuc hanh toan tu/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case study/yeu cau1/task1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case study/yeu cau1/task2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bienvakieudulieu/Baitap/ung dung may tinh/ung dung may tinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/bienvakieudulieu/Baitap/ung dung may tinh/ung dung may tinh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cautrucdieukien/Thuchanh/thuc hanh cau truc switch case/switch case.html" beforeDir="false" afterPath="$PROJECT_DIR$/cautrucdieukien/Thuchanh/thuc hanh cau truc switch case/switch case.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nhapmonlaptrinhcanban/thuchanh/clone du an tu git" beforeDir="false" afterPath="$PROJECT_DIR$/nhapmonlaptrinhcanban/thuchanh/clone du an tu git" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nhapmonlaptrinhcanban/thuchanh/clone du an tu git/New Text Document.txt" beforeDir="false" />
     </list>
@@ -53,6 +42,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/nhapmonlaptrinhcanban/thuchanh/nhung javascript" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\C0320G1-NguyenVanThien\module1\case study\yeu cau1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\C0320G1-NguyenVanThien\module1\nhapmonlaptrinhcanban\thuchanh\nhung javascript" />
     </key>
@@ -72,7 +64,8 @@
       <workItem from="1585635173083" duration="14058000" />
       <workItem from="1585704502381" duration="21084000" />
       <workItem from="1585836699059" duration="2422000" />
-      <workItem from="1585875666511" duration="19963000" />
+      <workItem from="1585875666511" duration="20564000" />
+      <workItem from="1586065131481" duration="3087000" />
     </task>
     <servers />
   </component>
