@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let test =parseInt(prompt("Điểm bài kiểm tra"));
+    let semitest = parseInt(prompt("Điểm thi giữa kì"));
+    let finaltest = parseInt(prompt("Điểm thi cuối kì"));
+    let dtb=(test+semitest+finaltest)/3 ;
+    if (dtb<=8) {
+        alert("Học sinh giỏi");
+    }else if (6.5<=dtb<8){
+        alert("Học sinh khá");
+    }else if (3.5<=dtb<6.5){
+        alert("Học sinh TB");
+    }else{
+        alert("Học sinh kém");
+    }
+</script>
+</body>
+</html>

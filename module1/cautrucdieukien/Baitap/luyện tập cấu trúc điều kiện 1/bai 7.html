@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mincall=parseInt(prompt("nhập vào số phút gọi",''));
+    let costcall ;
+
+    if (mincall<51) {
+        costcall=25000+(600*mincall);
+    }else  if (mincall<151){
+        costcall=25000+(600*50)+((mincall-50)*400);
+    }else {
+        costcall=25000+(600*50)+(400*150)+((mincall-200)*200);
+    }
+    alert("Số cước thuê bao :"+ costcall+"VND");
+</script>
+</body>
+</html>

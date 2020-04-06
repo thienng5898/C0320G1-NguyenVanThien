@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e09afe84-043d-4353-ba6b-6190acf86a39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/case study/yeu cau1/task1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case study/yeu cau1/task2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Baitap/do you love me/doyouloveme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Baitap/do you love me/vuithoi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Baitap/game puzzle/gamep puzzle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Baitap/good fast cheap/good-fast-cheap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Baitap/luyện tập cấu trúc điều kiện 1/bai 6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Baitap/luyện tập cấu trúc điều kiện 1/bai 7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Baitap/luyện tập cấu trúc điều kiện 1/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Baitap/luyện tập cấu trúc điều kiện 1/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Baitap/luyện tập cấu trúc điều kiện 1/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Baitap/luyện tập cấu trúc điều kiện 1/bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Baitap/luyện tập cấu trúc điều kiện 1/bài 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Baitap/luyện tập cấu trúc điều kiện 2/bài 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Baitap/luyện tập cấu trúc điều kiện 2/bài 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Baitap/luyện tập cấu trúc điều kiện 2/bài 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Baitap/luyện tập cấu trúc điều kiện 2/bài 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Baitap/luyện tập cấu trúc điều kiện 2/bài 5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdieukien/Baitap/luyện tập cấu trúc điều kiện 2/bài 6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cautrucdieukien/Baitap/simpleCaculator/maytinhdongian.html" beforeDir="false" afterPath="$PROJECT_DIR$/cautrucdieukien/Baitap/simpleCaculator/maytinhdongian.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nhapmonlaptrinhcanban/thuchanh/clone du an tu git" beforeDir="false" afterPath="$PROJECT_DIR$/nhapmonlaptrinhcanban/thuchanh/clone du an tu git" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nhapmonlaptrinhcanban/thuchanh/clone du an tu git/New Text Document.txt" beforeDir="false" />
     </list>
@@ -39,14 +55,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/nhapmonlaptrinhcanban/thuchanh/nhung javascript" />
+    <property name="last_opened_file_path" value="D:/untitled" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\C0320G1-NguyenVanThien\module1\case study\yeu cau1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\C0320G1-NguyenVanThien\module1\nhapmonlaptrinhcanban\thuchanh\nhung javascript" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\C0320G1-NguyenVanThien\module1\cautrucdieukien\Baitap\do you love me" />
+      <recent name="C:\C0320G1-NguyenVanThien\module1\case study\yeu cau1" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -66,6 +83,7 @@
       <workItem from="1585836699059" duration="2422000" />
       <workItem from="1585875666511" duration="20564000" />
       <workItem from="1586065131481" duration="3087000" />
+      <workItem from="1586135836677" duration="18139000" />
     </task>
     <servers />
   </component>
@@ -77,9 +95,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="447" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1585882587413" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585889927189">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1586141488705">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585889927189" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586141488705" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586144414966">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1586144414966" />
   </component>
 </project>
