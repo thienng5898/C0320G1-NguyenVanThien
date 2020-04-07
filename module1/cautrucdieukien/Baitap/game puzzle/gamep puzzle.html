@@ -5,6 +5,74 @@
     <title>Title</title>
 </head>
 <body>
+<img src="1a.png" width="15%" onclick="chuyenHinh(1)" id="hinh1">
+<img src="1b.png" width="15%" onclick="chuyenHinh(2)" id="hinh2">
+<img src="1c.png" width="15%" onclick="chuyenHinh(3)" id="hinh3">
+<img src="1d.png" width="15%" onclick="chuyenHinh(4)" id="hinh4">
+<img src="1e.png" width="15%" onclick="chuyenHinh(5)" id="hinh5">
+<script>
+    let hinh1 = document.getElementById("hinh1");
+    let hinh2 = document.getElementById("hinh2");
+    let hinh3 = document.getElementById("hinh3");
+    let hinh4 = document.getElementById("hinh4");
+    let hinh5 = document.getElementById("hinh5");
 
+    function chuyenHinh(number) {
+        switch (number) {
+            case 1:
+                if (hinh1.getAttribute("src") === "1a.png") {
+                    hinh1.src = "2a.png"
+                } else if (hinh1.getAttribute("src") === "2a.png") {
+                    hinh1.src = "3a.png";
+                } else if (hinh1.getAttribute("src") === "3a.png") {
+                    hinh1.src = "1a.png";
+                }
+                break;
+            case 2:
+                if (hinh2.getAttribute("src") === "2b.png") {
+                    hinh2.src = "1b.png"
+                } else if (hinh2.getAttribute("src") === "1b.png") {
+                    hinh2.src = "3b.png";
+                } else if (hinh2.getAttribute("src") === "3b.png") {
+                    hinh2.src = "2b.png";
+                }
+                break;
+            case 3:
+                if (hinh3.getAttribute("src") === "3c.png") {
+                    hinh3.src = "2c.png"
+                } else if (hinh3.getAttribute("src") === "2c.png") {
+                    hinh3.src = "1c.png";
+                } else if (hinh3.getAttribute("src") === "1c.png") {
+                    hinh3.src = "3c.png";
+                }
+                break;
+            case 4:
+                if (hinh4.getAttribute("src") === "1d.png") {
+                    hinh4.src = "2d.png"
+                } else if (hinh4.getAttribute("src") === "2d.png") {
+                    hinh4.src = "3d.png";
+                } else if (hinh4.getAttribute("src") === "3d.png") {
+                    hinh4.src = "1d.png";
+                }
+                break;
+            case 5:
+                if (hinh5.getAttribute("src") === "2e.png") {
+                    hinh5.src = "3e.png"
+                } else if (hinh5.getAttribute("src") === "3e.png") {
+                    hinh5.src = "1e.png";
+                } else if (hinh5.getAttribute("src") === "1e.png") {
+                    hinh5.src = "2e.png";
+                }
+                break;
+        }
+        if(hinh1.getAttribute("src")==="1a.png"&&hinh2.getAttribute("src")==="1b.png"&&hinh3.getAttribute("src")==="1c.png"&&hinh4.getAttribute("src")==="1d.png"&&hinh5.getAttribute("src")==="1e.png")   {
+           alert("yasuo phan dien");
+        }       else if(hinh1.getAttribute("src")==="2a.png"&&hinh2.getAttribute("src")==="2b.png"&&hinh3.getAttribute("src")==="2c.png"&&hinh4.getAttribute("src")==="2d.png"&&hinh5.getAttribute("src")==="2e.png")  {
+alert("Fiora tien hiep");
+        }   else if(hinh1.getAttribute("src")==="3a.png"&&hinh2.getAttribute("src")==="3b.png"&&hinh3.getAttribute("src")==="3c.png"&&hinh4.getAttribute("src")==="3d.png"&&hinh5.getAttribute("src")==="3e.png")     {
+alert("Janna tien hiep");
+        }
+    }
+    </script>
 </body>
 </html>

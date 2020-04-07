@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let bang   ;
+    let i = 1 ;
+    let x = 2;
+    let tich ;
+    bang = "<table border ='1' width='500' cellspacing='0' cellpadding='3'>" ;
+    while (i<11) {
+        i=1
+        i++;
+        bang+= "<tr>";
+        while (x<10){
+            tich = i* x ;
+            bang += "<td>" +(x+"X"+i+"="+tich)+"</td>";
+
+            x++;
+        }
+        bang +=("<tr> </tr>");
+        x =2 ;
+        x ++
+    }document.write(bang)
+</script>
+</body>
+</html>
