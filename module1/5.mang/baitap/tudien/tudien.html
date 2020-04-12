@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tu dien</title>
+</head>
+<body>
+<input id="word" type="text">
+<input type="button" onclick="find()" value=Translate>
+<p id="vie"></p>
+<script>
+    let words = document.getElementById("word");
+    let eng = ["dog", "cat", "fish", "crab"];
+    let vie = ["chó", "mèo", "cá", "cua"];
+
+    let check = false;
+
+    function find() {
+        for (let i = 0; i < eng.length; i++) {
+            check = false
+            if (eng[i] === words.value) {
+
+                check = true;
+                document.getElementById("vie").innerText = vie[i];
+                break;
+            }
+        }
+        if (check === false) {
+            alert("khong tim thay")
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let name = " Nguyen Van Thien ";
+    let cmnd = " 12312131 ";
+    let birthday = "5898";
+    let email = " alea123@gmail.com ";
+    let address = "Quang Nam";
+    let typeCustomer = "Gold";
+    let discount = "10";
+    let quantityInclude = "0";
+    let rentday = "10";
+    let typeService = "House";
+    let typeRoom = "Vip";
+    let costservice;
+    let discountaddress;
+    let discountrentday;
+    let discounttypecustomer;
+
+
+    let choose = prompt("1.Hien thi thong tin khach hang. " + "\n" +
+        "2.Chinh sua thong tin khach hang." + "\n" +
+        "3.Hien thi gia sau khi duoc giam." + "\n");
+
+    switch (choose) {
+        case "1" : {
+            alert("Họ và tên: " + name +"\n" +
+
+                "Số CMND: " + cmnd + "\n" +
+                "Ngày Sinh: " + birthday +"\n" +
+                "Email: " + email + "\n" +
+                "Địa chi: " + address + "\n" +
+                "Loại Customer: " + typeCustomer + "\n" +
+                "Giảm giá: " + discount + "\n" +
+                "Số lượng đi kèm: " + quantityInclude + "\n" +
+                "Số ngày thuê: " + rentday + "\n" +
+                "Loại dịch vụ: " + typeService + "\n" +
+                "Loại phòng: " + typeRoom);
+            break;
+        }
+        case "2" : {
+          let chooseEdit = prompt("1.Họ và tên: " + name +"\n" +
+
+                "2.Số CMND: " + cmnd + "\n" +
+                "3.Ngày Sinh: " + birthday +"\n" +
+                "4.Email: " + email + "\n" +
+                "5.Địa chi: " + address + "\n" +
+                "6.Loại Customer: " + typeCustomer + "\n" +
+                "7.Giảm giá: " + discount + "\n" +
+                "8.Số lượng đi kèm: " + quantityInclude + "\n" +
+                "9.Số ngày thuê: " + rentday + "\n" +
+                "10.Loại dịch vụ: " + typeService + "\n" +
+                "11.Loại phòng: " + typeRoom);
+          switch (chooseEdit) {
+              case "1" : {
+                  name =prompt("Enter name: ");
+                  break;
+              }
+              case "2" :{
+                  cmnd = prompt( "Enter id:  ");
+                  break;
+              }
+              case "3" :{
+                  birthday = prompt( "Enter birthday:  ");
+                  break;
+              }
+              case "4" :{
+                  email = prompt( "Enter email:  ");
+                  break;
+              }
+              case "5" :{
+                  address = prompt( "Enter addres:  ");
+                  break;
+              }
+              case "6" :{
+                  typeCustomer = prompt( "Enter typecustomer:  ");
+                  break;
+              }
+              case "7" :{
+                  discount = prompt( "Enter discount:  ");
+                  break;
+              }
+              case "8" :{
+                  quantityInclude = prompt( "Enter so luong di kem :  ");
+                  break;
+              }
+              case "9" :{
+                  rentday = prompt( "Enter so ngay thue:  ");
+                  break;
+              }
+              case "10" :{
+                  typeService = prompt( "Enter typeservice :  ");
+                  break;
+              }
+              case "11" :{
+                  typeRoom = prompt( "Enter typeroom :  ");
+                  break;
+              }
+              default : {
+                  alert("Failed");
+                  break;
+              }
+          }
+            alert("Họ và tên: " + name +"\n" +
+
+                "Số CMND: " + cmnd + "\n" +
+                "Ngày Sinh: " + birthday +"\n" +
+                "Email: " + email + "\n" +
+                "Địa chi: " + address + "\n" +
+                "Loại Customer: " + typeCustomer + "\n" +
+                "Giảm giá: " + discount + "\n" +
+                "Số lượng đi kèm: " + quantityInclude + "\n" +
+                "Số ngày thuê: " + rentday + "\n" +
+                "Loại dịch vụ: " + typeService + "\n" +
+                "Loại phòng: " + typeRoom);
+          break ;
+          }
+          case "3" :{
+              switch (typeService) {
+                  case "House":
+                      costservice = 300;
+                      break;
+                  case "Villa":
+                      costservice = 500;
+                      break;
+                  case  "Room":
+                      costservice = 100;
+                      break;
+              }
+              switch (address) {
+                  case "Da Nang":
+                      discountaddress = 20;
+                      break;
+                  case "Hue":
+                      discountaddress = 10;
+                      break;
+                  case "Quang Nam":
+                      discountaddress = 5;
+                      break;
+              }
+              switch (typeCustomer) {
+                  case "Diamond":
+                      discounttypecustomer = 15;
+                      break;
+                  case "Platium":
+                      discounttypecustomer = 10;
+                      break;
+                  case "Gold":
+                      discounttypecustomer = 5;
+                      break;
+                  case "Silver":
+                      discounttypecustomer = 2;
+                      break;
+                  case "Member":
+                      discounttypecustomer = 0;
+                      break;
+          }
+          if (rentday >= 2 && rentday <= 4) {
+                  discountrentday = 10;
+              } else if (rentday >= 5 && rentday <= 7) {
+                  discountrentday = 20;
+              } else if (rentday > 7) {
+                  discountrentday = 30;
+              }
+              let discountmoney = discountaddress + discountrentday + discounttypecustomer;
+              let totalpay = (costservice * rentday) - discountmoney;
+              alert("the amount to be paid after discount: " + totalpay);
+              break;
+    }
+default :{
+    alert("Su lua chon cua ban ko hop le");
+    break ;
+}
+    }
+</script>
+</body>
+</html>

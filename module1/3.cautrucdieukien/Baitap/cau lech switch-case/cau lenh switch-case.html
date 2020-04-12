@@ -5,33 +5,33 @@
     <title>Title</title>
 </head>
 <body>
-<input id="Month" type= "text">
+<input id="Month" type="text">
 <button type="button" value="Tinh so ngay" onclick="Tinhngay()">Tính số ngày</button>
-<p id="Num" > </p>
+<p id="Num"></p>
 <script>
     function Tinhngay() {
-let Month= parseInt(document.getElementById("Month").value);
-switch (Month) {
-    case 1 :
-    case 5 :
-    case 7 :
-    case 8 :
-    case 10 :
-    case 12 :
-document.getElementById("Num").innerText =  " Tháng " + Month + " có 30 ngày";
-        break ;
-        case 2 :
-            document.getElementById("Num").innerText = " Tháng " + Month + " có 28 hoặc 29 ngày";
-            break;
-        case 3 :
-           case 4 :
-               case 6:
-                   case 9:
-                       case 11 :
-                           document.getElementById("Num").innerText = " Tháng " + Month + " có 31 ngày";
-                           break;
+        let Month = parseInt(document.getElementById("Month").value);
+        switch (Month) {
+            case 1 :
+            case 5 :
+            case 7 :
+            case 8 :
+            case 10 :
+            case 12 :
+                document.getElementById("Num").innerText = " Tháng " + Month + " có 30 ngày";
+                break;
+            case 2 :
+                document.getElementById("Num").innerText = " Tháng " + Month + " có 28 hoặc 29 ngày";
+                break;
+            case 3 :
+            case 4 :
+            case 6 :
+            case 9 :
+            case 11 :
+                document.getElementById("Num").innerText = " Tháng " + Month + " có 31 ngày";
+                break;
 
-}
+        }
     }
 </script>
 </body>
