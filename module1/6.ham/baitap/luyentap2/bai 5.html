@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num1 = parseInt(prompt("nhap vao so nguyen bat ki")) ;
+    let num2 = parseInt(prompt("nhap vao so nguyen bat ki")) ;
+    let num3 = parseInt(prompt("nhap vao so nguyen bat ki")) ;
+    let arr = [ num1 , num2 ,num3] ;
+    function findMin(m) {
+        let min = m[0] ;
+        for (let i =0 ;i<3 ; i++) {
+            if (m[i] < min){
+                m[i] = min
+            }
+        }
+return min
+    }
+alert("so nho nhat trong ba so nhap vao la " + findMin(arr))
+
+</script>
+</body>
+</html>

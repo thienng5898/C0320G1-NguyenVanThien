@@ -6,17 +6,19 @@
 </head>
 <body>
 <script>
-let num =  [4,15,6,3,99,45,10,14,9,81] ;
+    let num =  [4,15,6,3,99,45,10,14,9,81] ;
     let max = num[0];
-    let index = 0 ;
+    let sum = num[0] ;
     for (let i = 1;i<num.length; i++) {
         if (num[i] > max) {
             max = num[i]
-            index = i
+        }
+        sum += num[i]
+    }
+let tbinh =sum/(num.length);
+    document.write("trung binh cong cua mang la "+tbinh);
 
-}
-}
-document.write("So lon nhat trong mang la "+ max + " o vi tri "+ index);
+    document.write(" so lon nhat cua mang la " +max)
 </script>
 </body>
 </html>

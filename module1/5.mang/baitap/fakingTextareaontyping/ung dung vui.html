@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div style="text-align: center;">
+<h2>Type anything slowly</h2>
+<form name="f">
+    <label>
+        <textarea name="txt" rows = "15" cols="60" onkeyup="typetext()"></textarea>
+    </label>
+</form>
+</div>
+<script>
+    let a = ["T","Ô","I"," ","L","À"," ","K","Ẻ"," ","N","G","Ố","C"," ", "!"," ","!"," "];
+    let b = "";
+    function typetext() {
+    let  t =  document.f.txt.value ;
+    if ( t.length >0 ){
+        for ( let i =0;i <= t.length;i++) {
+            b += a[i];
+            if (i === a.length){
+                document.f.txt.value = '' ;
+                b = "" ;
+            }
+        }
+    }
+document.f.txt.value = b ;
+  b ='';
+    }
+</script>
+</body>
+</html>
