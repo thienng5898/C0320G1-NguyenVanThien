@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let check = false ;
+    let name = prompt("Họ và Tên: ");
+    do {
+        let cmnd = prompt(" Số CMND: ");
+        if (!isNaN(cmnd)) {
+            cmnd = Number.parseFloat(cmnd);
+        }
+        if (!Number.isInteger(cmnd)) {
+            alert("CMND khong dung dinh dang");
+            continue
+        }
+        if (cmnd < 10000000 || cmnd > 99999999) {
+            alert("CMND khong dung dinh dang") ;
+            continue
+        }
+        check = true
+    } while (!check)
+    check = false;
+    do {
+        let birthday = prompt(" Ngày tháng năm sinh: ");
+        if (birthday.charAt(2) === "/" && birthday.charAt(5) === "/") {
+            let day = birthday.substring(0, 2) ;
+            let month = birthday.substring(3, 5) ;
+            let year = birthday.substring(6, 10) ;
+            if (!isNaN(day) && !isNaN(month) && !isNaN(year)) {
+                day = Number.parseFloat(day) ;
+                month = Number.parseFloat(month) ;
+                year = Number.parseFloat(year) ;
+                if (Number.isInteger(day) && Number.isInteger(month) && Number.isInteger(year)) {
+                    if (day < 32 && month < 13 && year > 1900) {
+                        check = true;
+                    }
+                }
+            }
+        }
+        if (!check) {
+            alert("ngay sinh khong dung moi nhap lai.")
+        }
+
+    } while (!check)
+    check = false;
+
+    do {
+        let countA = 0;
+        let countCham = 0;
+        let email = prompt("Địa chỉ email:  ");
+        for (let i = 0; i < email.length; i++) {
+            if (email.charAt(i) === "@") {
+                countA++;
+                for (let j = i + 1; j < email.length; j++) {
+                    if (email.charAt(j) === ".") {
+                        countCham++;
+                    }
+                }
+            }
+        }
+        if (countA !== 1 || countCham < 1) {
+            alert("email ban nhap khong chinh xac");
+        } else {
+            check = true;
+        }
+    } while (!check) ;
+    check = false ;
+    let address = prompt("Địa chỉ: ");
+    let typeCustomer = prompt("Loại Customer(Diamond, Platinum, Gold, Silver, Member): ");
+    let discount = prompt("Giảm giá: ");
+    do {
+        let quantityInclude = prompt("Số lượng đi kèm: ");
+        if (!isNaN(quantityInclude)) {
+            quantityInclude = Number.parseFloat(quantityInclude);
+            if (Number.isInteger(quantityInclude) && quantityInclude > 0)
+                check = true;
+        }
+        if (!check) {
+            alert("so luong di kem khong dung, moi nhap lai.")
+        }
+    } while (!check) ;
+    check = false ;
+    do {
+        let rentDay = prompt("Số ngày thuê: ");
+        if (!isNaN(rentDay)) {
+            rentDay = Number.parseFloat(rentDay);
+            if (Number.isInteger(rentDay) && rentDay > 0)
+                check = true;
+        }
+        if (!check) {
+            alert("so ngay thue khong dung, moi nhap lai.")
+        }
+    } while (!check) ;
+    check = false ;
+    let typeService = prompt("Loại dịch vụ(Villa, House, Room): ");
+    let typeRoom = prompt("Loại phòng thuê(Vip, Business,  Normal): ");
+</script>
+</body>
+</html>

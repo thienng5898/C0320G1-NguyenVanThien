@@ -2,49 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e09afe84-043d-4353-ba6b-6190acf86a39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/5.mang/baitap/fakingTextareaontyping/ung dung vui 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.mang/baitap/fakingTextareaontyping/ung dung vui.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.mang/baitap/luyen tap 2/bai 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.mang/baitap/luyen tap 2/bai 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.mang/baitap/luyen tap 2/bai 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.mang/baitap/luyen tap 2/bai 4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.mang/baitap/luyen tap 2/bai 5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.mang/baitap/luyen tap 2/bai 6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.mang/baitap/luyentap1/bai 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.mang/baitap/luyentap1/bai 4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.mang/baitap/luyentap1/bai 5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.mang/baitap/luyentap1/bai 6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.mang/baitap/luyentap1/bai 7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.mang/baitap/luyentap1/bai 8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.mang/baitap/luyentap1/bai 9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.ham/baitap/bai tap kiem tra tu doi xung dung vong lap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.ham/baitap/bai tap kiem tra tu doi xung.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.ham/baitap/bài tập quản lý sản phẩm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.ham/baitap/converter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.ham/baitap/luyentap 1/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.ham/baitap/luyentap 1/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.ham/baitap/luyentap 1/bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.ham/baitap/luyentap 1/bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.ham/baitap/luyentap 1/bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.ham/baitap/luyentap2/bai 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.ham/baitap/luyentap2/bai 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.ham/baitap/luyentap2/bai 5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.ham/baitap/luyentap2/bai 6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.ham/baitap/luyentap2/bai 8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.ham/baitap/luyentap2/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.ham/baitap/luyentap2/bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.ham/baitap/luyentap2/bai7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.ham/baitap/luyentap2/bai9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.ham/baitap/testPrime.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.ham/thuchanh/creatorAndcall.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.ham/thuchanh/minOfArray.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.ham/thuchanh/temperature.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.laptrinhhuongdoituong/baitap/xay dung lop mo ta dien thoai.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.laptrinhhuongdoituong/baitap/xay dung lop mo ta temperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.laptrinhhuongdoituong/baitap/xây dựng lớp mô tả hình chữ nhật.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.laptrinhhuongdoituong/thuchanh/Funny Circles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.laptrinhhuongdoituong/thuchanh/Xaydung lop Date.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.laptrinhhuongdoituong/thuchanh/xaydung lop hinhtron.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case study/yeu cau3/task1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case study/yeu cau3/task2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case study/yeu cau3/yeu cau 3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1.nhapmonlaptrinhcanban/thuchanh/clone du an tu git" beforeDir="false" afterPath="$PROJECT_DIR$/1.nhapmonlaptrinhcanban/thuchanh/clone du an tu git" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1.nhapmonlaptrinhcanban/thuchanh/clone du an tu git/New Text Document.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.mang/baitap/luyentap1/bai 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/5.mang/baitap/luyentap1/bai 2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.mang/baitap/tictactoe/tichtactoe.html" beforeDir="false" afterPath="$PROJECT_DIR$/5.mang/baitap/tictactoe/tichtactoe.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +33,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectId" id="1ZqIFlkdpQGIp9M4NuEWbtOyM0v" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -102,6 +72,9 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -134,7 +107,11 @@
       <workItem from="1586740389086" duration="23182000" />
       <workItem from="1586827866305" duration="18265000" />
       <workItem from="1586871396954" duration="617000" />
-      <workItem from="1586914059330" duration="20412000" />
+      <workItem from="1586914059330" duration="20603000" />
+      <workItem from="1587008953004" duration="6120000" />
+      <workItem from="1587048392067" duration="2539000" />
+      <workItem from="1587085660240" duration="18254000" />
+      <workItem from="1587265351967" duration="9479000" />
     </task>
     <servers />
   </component>
@@ -234,9 +211,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="578" y="179" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586401646956" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586934004081">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1587280595001">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1586934004081" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587280595001" />
   </component>
 </project>

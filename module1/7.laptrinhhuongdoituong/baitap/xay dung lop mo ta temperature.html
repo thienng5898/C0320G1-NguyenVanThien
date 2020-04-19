@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Temperature {
+        constructor(c) {
+            this.tempC = parseFloat(c)
+        }
+            ctof() {
+                let ctof = this.tempC * 1.8 + 32;
+                return ctof
+            }
+            ctok() {
+                let ctok = this.tempC + 273.15
+                return ctok
+            }
+
+    }
+    let nhietdo =new Temperature(25)
+    alert("do f " + nhietdo.ctof())
+    alert("do k "+ nhietdo.ctok())
+</script>
+</body>
+</html>
