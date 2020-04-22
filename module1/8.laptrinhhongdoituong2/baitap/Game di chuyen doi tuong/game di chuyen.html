@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="game"></div>
+<script>
+    class Hero{
+        constructor(image,top,left,size) {
+            this.image = image ;
+            this.top = top ;
+            this.left = left ;
+            this.size = size ;
+        }
+        getHeroElement(){
+            return '<img width="'+ this.size + '" ' +
+                ' height="'+ this.size + '"' +
+                ' src="' + this.image +'"' +
+                ' style="top: '+this.top+'px; left:'+this.left+'px;position:absolute;" />';
+        }
+        moveRight() {
+            this.left += 20 ;
+        }
+        moveLeft(){
+            this.left -= 20 ;
+        }
+        moveDown(){
+            this.top += 15 ;
+        }
+        moveUp() {
+            this.top -= 10;
+        }
+    }
+    let img1 = new Hero('tải xuống.jpg',0,0,100)
+    let status ="right" ;
+    function start(obj) {
+        switch (status) {
+            case "right":
+                if(obj.left<window.innerWidth-obj.size){
+                    obj.moveRight()
+                }else status = "down"
+                break ;
+            case "down":
+                if(obj.top<window.innerHeight-obj.size){
+                    obj.moveDown()
+                }else status = "left"
+                break ;
+            case "left":
+                if (obj.left >0) {
+                    obj.moveLeft();
+                } else status = "up";
+                break;
+            case "up":
+                if (obj.top >0) {
+                    obj.moveUp();
+                } else status = "right";
+                break;
+
+        }
+document.getElementById('game').innerHTML = obj.getHeroElement();
+        setTimeout(start,100,obj)
+    }
+    start(img1);
+</script>
+</body>
+</html>

@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e09afe84-043d-4353-ba6b-6190acf86a39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/7.laptrinhhuongdoituong/baitap/xay dung lop mo ta dien thoai.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7.laptrinhhuongdoituong/baitap/xay dung lop mo ta temperature.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7.laptrinhhuongdoituong/baitap/xây dựng lớp mô tả hình chữ nhật.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7.laptrinhhuongdoituong/thuchanh/Funny Circles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7.laptrinhhuongdoituong/thuchanh/Xaydung lop Date.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7.laptrinhhuongdoituong/thuchanh/xaydung lop hinhtron.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case study/yeu cau3/task1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case study/yeu cau3/task2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case study/yeu cau3/yeu cau 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.laptrinhhuongdoituong/baitap/dien thoai 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.laptrinhhongdoituong2/baitap/meobatchuot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.laptrinhhongdoituong2/thuchanh/xay dung lop mo phong hoat dong pin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1.nhapmonlaptrinhcanban/thuchanh/clone du an tu git" beforeDir="false" afterPath="$PROJECT_DIR$/1.nhapmonlaptrinhcanban/thuchanh/clone du an tu git" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1.nhapmonlaptrinhcanban/thuchanh/clone du an tu git/New Text Document.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.laptrinhhuongdoituong/baitap/xay dung lop mo ta dien thoai.html" beforeDir="false" afterPath="$PROJECT_DIR$/7.laptrinhhuongdoituong/baitap/xay dung lop mo ta dien thoai.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.laptrinhhuongdoituong/baitap/xay dung lop mo ta temperature.html" beforeDir="false" afterPath="$PROJECT_DIR$/7.laptrinhhuongdoituong/baitap/xay dung lop mo ta temperature.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.laptrinhhuongdoituong/baitap/xây dựng lớp mô tả hình chữ nhật.html" beforeDir="false" afterPath="$PROJECT_DIR$/7.laptrinhhuongdoituong/baitap/xây dựng lớp mô tả hình chữ nhật.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.laptrinhhuongdoituong/thuchanh/Xaydung lop Date.html" beforeDir="false" afterPath="$PROJECT_DIR$/7.laptrinhhuongdoituong/thuchanh/Xaydung lop Date.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +109,14 @@
       <workItem from="1587008953004" duration="6120000" />
       <workItem from="1587048392067" duration="2539000" />
       <workItem from="1587085660240" duration="18254000" />
-      <workItem from="1587265351967" duration="9479000" />
+      <workItem from="1587265351967" duration="10754000" />
+      <workItem from="1587309479719" duration="670000" />
+      <workItem from="1587346211338" duration="7493000" />
+      <workItem from="1587363963356" duration="8121000" />
+      <workItem from="1587393405402" duration="1560000" />
+      <workItem from="1587431216432" duration="21514000" />
+      <workItem from="1587479526784" duration="831000" />
+      <workItem from="1587518717736" duration="940000" />
     </task>
     <servers />
   </component>
@@ -215,5 +220,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587280595001" />
+    <state x="405" y="275" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1587377242353">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="405" y="275" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1366.728@0.0.1366.728" timestamp="1587377242353" />
   </component>
 </project>

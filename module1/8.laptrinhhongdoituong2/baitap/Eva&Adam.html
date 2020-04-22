@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Apple {
+        constructor() {
+            let weight = 10
+            this.weight = weight
+        }
+
+        decrease() {
+            if (!this.isEmpty()) {
+                this.weight--
+            } else {
+                alert("NOthing!!")
+            }
+        }
+
+        getWeight() {
+            return this.weight
+        }
+
+        isEmpty() {
+            if (this.weight === 0) {
+                return true
+            } else {
+                return false
+            }
+        }
+    }
+
+    class Human {
+        constructor(name, gender, weight) {
+            this.name = name
+            this.gender = gender
+            this.weight = weight
+        }
+
+        getNAme() {
+            return this.name
+        }
+
+        setName(nameCall) {
+            this.name = nameCall
+        }
+
+        getWeight() {
+            return this.weight
+        }
+
+        setWeight(HumanWeight) {
+            this.weight = HumanWeight
+        }
+
+        isMale() {
+            if (this.gender === "Male") {
+                return true
+            } else {
+                return false
+            }
+        }
+
+        setGender(gender) {
+            this.gender = gender
+        }
+
+        checkApple(Apple) {
+            this.Apple = Apple
+
+        }
+
+        eatApple(Apple) {
+            this.weight++;
+            Apple.decrease()
+        }
+
+        say() {
+            console.log("Hello, My name is " + this.name + ". I'm a " + this.gender + " and I weight " + this.weight + " kg.");
+        }
+    }
+
+    let adam = new Human("Adam", "Male", 60)
+    let eva = new Human("Eva", "Female", 50)
+    let tao = new Apple()
+    while (!tao.isEmpty()) {
+        adam.eatApple(tao)
+        eva.eatApple(tao)
+        console.log("Adam Weight :" + adam.getWeight())
+        console.log("Eva Weight :" + eva.getWeight())
+        console.log("tao Weight :" + tao.getWeight())
+        adam.say();
+        eva.say()
+    }
+
+</script>
+</body>
+</html>
