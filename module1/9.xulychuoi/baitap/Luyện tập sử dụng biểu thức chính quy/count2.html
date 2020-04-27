@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function countNa(str) {
+        let regexpNa =  /[ueoai]/g
+        let result =  str.match(regexpNa)
+        return result.length
+    }
+    function countPa(str) {
+        let regexpPa =  /[bcdghklmnpqrstvx]/g
+        let result1 =  str.match(regexpPa)
+        return result1.length
+    }
+  let string = "That la mot ngay met moi va ue oai "
+    console.log(countNa(string))
+    console.log(countPa(string))
+</script>
+</body>
+</html>

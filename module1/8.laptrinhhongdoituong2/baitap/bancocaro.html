@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .cssBoard {
+            width: 10px;
+            height: 10px;
+        }
+    </style>
+</head>
+
+<body>
+<script>
+    class Board {
+        constructor(col, row) {
+            this.col = col;
+            this.row = row;
+            this.board = [];
+            this.initBoard();
+        }
+
+        initBoard() {
+            for (let i = 0; i < this.row; i++) {
+                this.board[i] = new Array();
+                for (let j = 0; j < this.col; j++) {
+                    this.board[i][j] = "";
+                }
+            }
+        }
+
+        draw() {
+            let temp = "<table border =1 >" ;
+            for (let i = 0; i < this.row; i++) {
+                temp += "<tr>"
+                for (let j = 0; j < this.col; j++) {
+                    temp += "<td style='height:30px;width:30px; text-align: center;background-color: deeppink' onclick='play(" + i + "," + j + ")'>" + this.board[i][j] + "</td>"
+                }
+                temp += "</tr>"
+            }
+            temp += "</table>" ;
+            return temp
+        }
+
+        playGame(i, j, char) {
+            this.board[i][j] = char;
+            document.body.innerHTML = "";
+            document.write(this.draw());
+            this.checkWin(char);
+        }
+
+        checkWin(char) {
+            let check = false ;
+            for (let i = 0; i < this.row; i++) {
+                for (let j = 0; j < this.col; j++) {
+                    if (this.board[i][j] === char && this.board[i][j + 1] === char && this.board[i][j + 2] === char && this.board[i][j + 3] === char && this.board[i][j + 4] === char) {
+                        check = true;
+                    }
+                    if (this.board[i][j] === char && this.board[i + 1][j] === char && this.board[i + 2][j] === char && this.board[i + 3][j] === char && this.board[i + 4][j] === char) {
+                        check = true;
+                    }
+                    if (this.board[i][j] === char && this.board[i + 1][j + 1] === char && this.board[i + 2][j + 2] === char && this.board[i + 3][j + 3] === char && this.board[i+4][j+4] === char) {
+                        check = true;
+                    }
+                    if (this.board[i][j] === char && this.board[i+1][j-1] === char && this.board[i+2][j- 2] === char && this.board[i+3][j-3] === char && this.board[i+4][j-4] === char) {
+                        check = true;
+                    }
+                }
+            }
+            if (check) {
+                alert( char + " Thắng") ;
+                this.initBoard();
+                this.draw();
+            }
+        }
+    }
+    let banCo = new Board(20, 20);
+    document.write(banCo.draw()) ;
+    let count = 0 ;
+    function play(i,j) {
+        if (banCo.board[i][j]!== "X" && banCo.board[i][j] !=="O" ){
+            if (count % 2 === 0){
+                banCo.playGame(i, j,"X");
+            }else {
+                banCo.playGame(i,j,"O");
+            }
+            count ++ ;
+        }else {
+            alert("Mời đánh vào ô khác") ;
+        }
+    }
+</script>
+</body>
+</html>

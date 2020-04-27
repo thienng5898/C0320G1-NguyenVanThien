@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arrSdt = [ '0993896105', '0373793242', '0971234568', '0397898521', '0771593578', '0811032465', '0927789956'] ;
+    let sdtVieTel = /(086|096|097|098|032|033|034|035|036|037|038|039)+[0-9]{7}$/;
+    for (let i = 0;i<arrSdt.length;i++){
+        if(sdtVieTel.test(arrSdt[i])){
+            document.write(arrSdt[i]+"<br>")
+        }
+    }
+</script>
+</body>
+</html>

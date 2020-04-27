@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let nameCustomer = [];
+    while (1) {
+        let choose = parseInt(prompt("1.Add name customer " + "\n" + "2.Delete customer"));
+        switch (choose) {
+            case 1 : {
+                let number = parseInt(prompt("Số lượng Customer bạn muốn thêm là :"));
+                for (let i = 0; i < number; i++) {
+                    let nameOfCustomer = prompt("Tên customer :");
+                    nameCustomer.push(nameOfCustomer)
+                }
+                let result = "";
+                nameCustomer.sort() ;
+                for (let i = 0; i < nameCustomer.length; i++) {
+                    result += "No " + (i + 1) + "." + nameCustomer[i] + "\n";
+                }
+                alert(result);
+            }
+                break;
+            case 2 : {
+                let check = false;
+                let deleteName = prompt("Nhập tên customer muốn xóa") ;
+                for (let i = 0; i < nameCustomer.length; i++) {
+                    if (nameCustomer[i] === deleteName) {
+                        nameCustomer.splice(i, 1);
+                        check = true;
+                    }
+                }
+                if (!check) {
+                    alert("bạn nhập sai tên") ;
+                }
+
+                let result = "";
+                nameCustomer.sort() ;
+                for (let i = 0; i < nameCustomer.length; i++) {
+                    result += "No " + (i + 1) + "." + nameCustomer[i] + "\n";
+                }
+                alert(result);
+        }
+        break;
+            default :
+                alert("Failed")
+
+        }
+    }
+</script>
+</body>
+</html>

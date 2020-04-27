@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function checkEmail(str) {
+        let regexp = /^[A-Za-z0-9]+[A-Za-z0-9]*@[A-Za-z0-9]+(\.[A-Za-z0-9]+)$/;
+        if (regexp.test(str)) {
+            document.writeln("Email đúng định dạng")
+        } else {
+            document.writeln("email này sai định dạng");
+        }
+    }
+
+    let mail1 = "a@gmail.com"
+    let mail2 = "ab@gmail."
+    let mail3 = "ab@yahoo.com"
+    let mail4 = "abc@hotmail.com"
+    let mail5 = "@#abc@gmail.com"
+    checkEmail(mail1);
+    checkEmail(mail2);
+    checkEmail(mail3);
+    checkEmail(mail4);
+    checkEmail(mail5);
+
+</script>
+</body>
+</html>

@@ -16,10 +16,9 @@
             if (!this.isEmpty()) {
                 this.weight--
             } else {
-                alert("NOthing!!")
+              console.log("NOthing!!")
             }
         }
-
         getWeight() {
             return this.weight
         }
@@ -77,12 +76,10 @@
             this.weight++;
             Apple.decrease()
         }
-
         say() {
             console.log("Hello, My name is " + this.name + ". I'm a " + this.gender + " and I weight " + this.weight + " kg.");
         }
     }
-
     let adam = new Human("Adam", "Male", 60)
     let eva = new Human("Eva", "Female", 50)
     let tao = new Apple()

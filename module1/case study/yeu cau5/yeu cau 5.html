@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let choose ;
+    let arrListCustomers = [] ;
+    displayMainMenu() ;
+    function displayMainMenu() {
+        do {
+            choose = parseInt(prompt("1.Add new customer  \n" +
+                "2.Display Information Customer \n" +
+                "3.Edit Information Customer \n" +
+                "4.Delete Customer \n" +
+            "5.Exit"))
+            switch (choose) {
+                case 1 : addNewCustomer()
+                    break ;
+                case  2 : displayInforCustomer()
+                    break ;
+                case 3 : editInforCustomer()
+                    break ;
+                case 4 : deleteCustomer()
+                    break ;
+                case 5 : break ;
+                default : alert("failed")
+
+            }
+        }while (choose !== 5) ;
+
+    }
+    function addNewCustomer() {
+    }
+    function displayInforCustomer() {
+    }
+    function editInforCustomer() {
+    }
+    function deleteCustomer() {
+    }
+
+</script>
+</body>
+</html>
