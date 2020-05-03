@@ -5,7 +5,58 @@
     <title>Title</title>
 </head>
 <body>
-
+<h2>Add New Product</h2>
+<input type="text" id="product" placeholder="New Product"> &nbsp;&nbsp;
+<button type="button" onclick="addProduct()" style="background-color: aqua ;border-radius: 10%">Add</button>
+<h2>Display All Product</h2>
+<table>
+    <tr>
+        <td colspan="3" width="250px"><b>Product Name</b></td>
+        <td id="totalProduct" style="margin-left: 100px"></td>
+    </tr>
+</table>
+<p id="table"></p>
 </body>
+<script>
+    let productArray = [];
+    let display = "";
+    let table = document.getElementById("table");
 
+    function addProduct() {
+        display = "";
+        let product = document.getElementById("product").value;
+        productArray.push(product);
+        displayProduct();
+        document.getElementById("product").value = "";
+        document.getElementById("totalProduct").innerHTML = productArray.length + "products"
+    }
+
+    function edit(n) {
+        display = ""
+        productArray[n] = prompt("what do you want to edit this ?");
+        displayProduct();
+        document.getElementById("totalProduct").innerHTML = productArray.length + "products"
+    }
+
+    function deleteProduct(n) {
+        display = "";
+        for (let i = n; i < productArray.length; i++) {
+            productArray[i] = productArray[i + 1]
+        }
+        productArray.pop()
+        displayProduct()
+        document.getElementById("totalProduct").innerText = productArray.length + " products";
+    }
+
+    function displayProduct() {
+        for (let i = 0; i < productArray.length; i++) {
+            display += "<table border='1'>" + "<tr>" +
+                "<td style='width: 70%;text-align: center'>" + productArray[i] + "</td>" +
+                "<td>" + "<button type='button'  onclick='edit(" + i + ")' style='background-color: seagreen;border-radius: 10%;'>Edit</button>" + "</td>" +
+                "<td>" + "<button type='button' onclick='deleteProduct(" + i + ")' style='background-color: seagreen;border-radius: 10%;'>Delete</button>" + "</td>"
+        }
+        display += "</table>";
+        table.innerHTML = display;
+    }
+</script>
 </html>

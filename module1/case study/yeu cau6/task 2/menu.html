@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="employee.js"></script>
+</head>
+<body>
+<script>
+    let listEmployees = [];
+
+    function displayMainMenu() {
+        let choose = parseInt(prompt("1.Add New Employee." + "\n2.Display Infor" + "\n3.Salary Of Employee" + "\n4.Exit"));
+        switch (choose) {
+            case 1 : {
+                addNewEmployee();
+                break
+            }
+            case 2: {
+                displayInfor();
+                break
+            }
+            case 3:{
+                displaySalary();
+                break
+            }
+            default :
+            {
+                alert("Failed");
+                displayMainMenu()
+            }
+        }
+    }
+    function addNewEmployee() {
+        let employee = new Employee() ;
+        employee.setName(prompt("enter name"));
+        employee.setcmnd(prompt("enter cmnd"));
+        employee.setBirthday(prompt("enter birthday"));
+        employee.setEmail(prompt("enter Email"));
+        employee.setPhone(prompt("enter Phone"));
+        employee.setLocation(prompt("enter Location"));
+        employee.setLevel(prompt("enter Level"));
+        listEmployees.push(employee) ;
+        alert("Success add") ;
+        displayMainMenu()
+    }
+    function displayInfor(){
+        let display = "";
+        for (let i = 0; i < listEmployees.length; i++) {
+            display += i + " .Name: " + listEmployees[i].getName() + "\n";
+        }
+        let chooseDisplay = parseInt(prompt(display));
+        alert("Tên :" + listEmployees[chooseDisplay].getName() +"\n"
+        +"Ngày sinh :"+listEmployees[chooseDisplay].getBirthday()+"\n"
+            +"CMND :"+listEmployees[chooseDisplay].getcmnd()+"\n"
+            +"Email :"+listEmployees[chooseDisplay].getEmail()+"\n"
+            +"Cấp độ :"+listEmployees[chooseDisplay].getLevel()+"\n"
+            +"Chức vụ :"+listEmployees[chooseDisplay].getLocation()+"\n"
+            +"Sdt :"+listEmployees[chooseDisplay].getPhone()) ;
+        displayMainMenu();
+    }
+    function displaySalary(){
+        let display = "";
+        for (let i = 0; i < listEmployees.length; i++) {
+            display += i + " .Name: " + listEmployees[i].getName() + "\n";
+        }
+        let chooseDisplay = parseInt(prompt(display));
+        alert("Lương của :"+listEmployees[chooseDisplay].getName() +" là: "+listEmployees[chooseDisplay].getSalary());
+        displayMainMenu()
+    }
+displayMainMenu()
+</script>
+</body>
+</html>

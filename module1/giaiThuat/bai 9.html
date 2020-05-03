@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function reverString(str) {
+        let temp = "";
+        for (let i = str.length - 1; i >= 0; i--) {
+            temp += str.charAt(i)
+        }
+        return temp
+    }
+
+    function toUpperCase(str) {
+        let temp = "";
+        for (let i = 0; i < str.length; i++) {
+            temp += str.charAt(i).toUpperCase()
+        }
+        return temp
+    }
+
+    function toLowerCase(str) {
+        let temp = "";
+        for (let i = 0; i < str.length; i++) {
+            temp += str.charAt(i).toLowerCase()
+        }
+        return temp
+    }
+
+    function toUpperAndLower(str) {
+        let temp = "";
+        let value = "";
+        for (let i = 0; i < str.length; i++) {
+            value = str[i]
+
+            if (value === str.charAt(i).toUpperCase()) {
+                temp += str.charAt(i).toLowerCase()
+            } else {
+                temp += str.charAt(i).toUpperCase()
+            }
+        }
+        return temp;
+    }
+
+    function test(str) {
+        let temp = "";
+        for (let i = 0; i < str.length; i++) {
+            if (str.charAt(i) >= "A" && str.charAt(i) <= "Z") {
+                temp += str.charAt(i).toLowerCase();
+            } else if (str.charAt(i) >= "a" && str.charAt(i) <= "z") {
+                temp += str.charAt(i).toUpperCase()
+            } else {
+                temp += str.charAt(i);
+            }
+        }
+        return temp;
+    }
+
+    alert(test("Hom NAY LA ngay may nhỉ"));
+    alert(reverString("bvcasd"))
+    alert(toUpperCase("vmdskdh"))
+    alert(toLowerCase("LSDAN"))
+    alert(toUpperAndLower("AN cai gi Day"))
+</script>
+</body>
+</html>

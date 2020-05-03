@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+mang =[1,2,5,6,3,4,8,5,32,8,74,99,15,100,8]
+function search(arr){
+    let max = arr[0] ;
+    let max2 ;
+    arr = arr.sort(function (a,b) {return a-b;})
+    for (let i = 1 ; i<arr.length; i++){
+        if(max<arr[i]){
+            max2= max;
+            max = arr[i];
+        }
+    }
+    return max2;
+}
+alert(search(mang));
+
+
+</script>
+</body>
+</html>

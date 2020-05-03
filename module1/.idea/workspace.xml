@@ -2,33 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e09afe84-043d-4353-ba6b-6190acf86a39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10.Giải quyết vấn đề và thuật  toán/Thuchanh/demSolanXuatHien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.Giải quyết vấn đề và thuật  toán/Thuchanh/findMinMax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.Giải quyết vấn đề và thuật  toán/baitap/Debug.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.Giải quyết vấn đề và thuật  toán/baitap/TimSDT.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.Giải quyết vấn đề và thuật  toán/baitap/quan ly san pham.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.laptrinhhongdoituong2/baitap/bancocaro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.xulychuoi/baitap/Luyện tập sử dụng biểu thức chính quy/check Date.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.xulychuoi/baitap/Luyện tập sử dụng biểu thức chính quy/count.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.xulychuoi/baitap/Luyện tập sử dụng biểu thức chính quy/count2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.xulychuoi/baitap/Luyện tập sử dụng biểu thức chính quy/passWord.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.xulychuoi/baitap/Làm việc với các đối tượng thông dụng/LamViecVoiDate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.xulychuoi/baitap/Làm việc với các đối tượng thông dụng/LamViecVoiMath.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.xulychuoi/baitap/Làm việc với các đối tượng thông dụng/LamViecVoiString.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.xulychuoi/baitap/Validate Sdt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.xulychuoi/baitap/Validate email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.xulychuoi/baitap/ValidateAccount.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.xulychuoi/baitap/ValidateNameLop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.xulychuoi/thuchanh/First letter upper case.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.xulychuoi/thuchanh/check code us.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case study/yeu cau4/yeu cau 4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case study/yeu cau5/yeu cau 5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.Giải quyết vấn đề và thuật  toán/Thuchanh/MAx2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.Giải quyết vấn đề và thuật  toán/baitap/gamedoanso.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.boucing ball game/castudio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.laptrinhhuongdoituong/baitap/car Game.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.laptrinhhongdoituong2/baitap/Remote.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case study/yeu cau6/task 1/Class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case study/yeu cau6/task 1/class2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case study/yeu cau6/task 1/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case study/yeu cau6/task 2/employee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case study/yeu cau6/task 2/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giaiThuat/bai 9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giaiThuat/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giaiThuat/bai10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giaiThuat/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giaiThuat/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giaiThuat/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giaiThuat/bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giaiThuat/bai6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giaiThuat/bai7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giaiThuat/bai8.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1.nhapmonlaptrinhcanban/thuchanh/clone du an tu git" beforeDir="false" afterPath="$PROJECT_DIR$/1.nhapmonlaptrinhcanban/thuchanh/clone du an tu git" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1.nhapmonlaptrinhcanban/thuchanh/clone du an tu git/New Text Document.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.ham/baitap/bài tập quản lý sản phẩm.html" beforeDir="false" afterPath="$PROJECT_DIR$/6.ham/baitap/bài tập quản lý sản phẩm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8.laptrinhhongdoituong2/baitap/Eva&amp;Adam.html" beforeDir="false" afterPath="$PROJECT_DIR$/8.laptrinhhongdoituong2/baitap/Eva&amp;Adam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8.laptrinhhongdoituong2/baitap/meobatchuot.html" beforeDir="false" afterPath="$PROJECT_DIR$/8.laptrinhhongdoituong2/baitap/meobatchuot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.Giải quyết vấn đề và thuật  toán/Thuchanh/demSolanXuatHien.html" beforeDir="false" afterPath="$PROJECT_DIR$/10.Giải quyết vấn đề và thuật  toán/Thuchanh/demSolanXuatHien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.Giải quyết vấn đề và thuật  toán/baitap/quan ly san pham.html" beforeDir="false" afterPath="$PROJECT_DIR$/10.Giải quyết vấn đề và thuật  toán/baitap/quan ly san pham.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.ham/baitap/bai tap kiem tra tu doi xung dung vong lap.html" beforeDir="false" afterPath="$PROJECT_DIR$/6.ham/baitap/bai tap kiem tra tu doi xung dung vong lap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case study/yeu cau5/yeu cau 5.html" beforeDir="false" afterPath="$PROJECT_DIR$/case study/yeu cau5/yeu cau 5.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1ZqIFlkdpQGIp9M4NuEWbtOyM0v" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -137,7 +143,13 @@
       <workItem from="1587606243804" duration="14736000" />
       <workItem from="1587648732133" duration="180000" />
       <workItem from="1587698166737" duration="15059000" />
-      <workItem from="1587948629834" duration="931000" />
+      <workItem from="1587948629834" duration="22780000" />
+      <workItem from="1587999762272" duration="339000" />
+      <workItem from="1588036345741" duration="25774000" />
+      <workItem from="1588122867130" duration="12241000" />
+      <workItem from="1588394445157" duration="3291000" />
+      <workItem from="1588424903509" duration="4333000" />
+      <workItem from="1588469465028" duration="11378000" />
     </task>
     <servers />
   </component>
@@ -149,10 +161,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="21" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1586918111749" />
-    <state x="447" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585882587413">
+    <state x="447" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588127187068">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="447" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1585882587413" />
+    <state x="447" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1588127187068" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1586141488705">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
