@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Worker {
+        constructor(name, birthday, address, location, salary) {
+            this.name = name
+            this.birthday = birthday
+            this.address = address
+            this.salary = salary
+            this.location = location
+        }
+
+        getName() {
+            return this.name
+        }
+
+        getBirthday() {
+            return this.birthday
+        }
+
+        getAddress() {
+            return this.address
+        }
+
+        getSalary() {
+            return this.salary
+        }
+
+        getLocation() {
+            return this.location
+        }
+
+        setName(name) {
+            this.name = name
+        }
+
+        setBirthday(birthday) {
+            this.birthday = birthday
+        }
+
+        setSalary(salary) {
+            this.salary = salary
+        }
+
+        setAddress(address) {
+            this.address = address
+        }
+
+        setLocation(location) {
+            this.location = location
+        }
+    }
+
+    let listWorker = [];
+
+    function displayMainMenu() {
+        let choose = parseInt(prompt("1.Add New Worker." + "\n2.Display Infor" + "\n3.Edit" + "\n4.Delete"));
+        switch (choose) {
+            case 1 : {
+                addNewWorker();
+                break
+            }
+            case 2: {
+                displayInforWorker();
+                break
+            }
+            case 3: {
+                EditInfor();
+                break
+            }
+            case 4 : {
+                DeleteWorker();
+            }
+            default : {
+                alert("Failed");
+                displayMainMenu()
+            }
+        }
+    }
+
+    displayMainMenu()
+
+    function addNewWorker() {
+        let worker = new Worker()
+        worker.setName(prompt("EnTer name"))
+        worker.setBirthday(prompt("Enter birthday"))
+        worker.setAddress(prompt("enter Address"))
+        worker.setLocation(prompt("enter Location"))
+        worker.setSalary(prompt("Enter salary"))
+        listWorker.push(worker)
+
+        alert("Success add");
+        displayMainMenu()
+    }
+
+    function displayInforWorker() {
+        let display = "";
+        for (let i = 0; i < listWorker.length; i++) {
+            display += i + " .Name: " + listWorker[i].getName() + "\n";
+        }
+        let chooseDisplay = parseInt(prompt(display));
+        alert("Tên :" + listWorker[chooseDisplay].getName() + "\n"
+            + "Ngày sinh :" + listWorker[chooseDisplay].getBirthday() + "\n"
+            + "Địa chỉ :" + listWorker[chooseDisplay].getAddress() + "\n"
+            + "Chức vụ :" + listWorker[chooseDisplay].getLocation() + "\n"
+            + "Lương :" + listWorker[chooseDisplay].getSalary())
+
+        displayMainMenu();
+    }
+
+    function EditInfor() {
+        let display = "";
+        for (let i = 0; i < listWorker.length; i++) {
+            display += i + " .Name: " + listWorker[i].getName() + "\n";
+        }
+        let chooseDisplay = parseInt(prompt(display));
+        let chooseEdit = parseInt(prompt("1.Tên :" + listWorker[chooseDisplay].getName() + "\n" +
+            "2.Địachỉ :" + listWorker[chooseDisplay].getAddress() + "\n" +
+            "3.Ngày sinh :" + listWorker[chooseDisplay].getBirthday() + "\n" +
+            "4.Chức Vụ :" + listWorker[chooseDisplay].getLocation() + "\n" +
+            "5.Lương :" + listWorker[chooseDisplay].getSalary()))
+
+        switch (chooseEdit) {
+            case 1 : {
+                listWorker[chooseDisplay].setName(prompt("enter name"))
+
+                break;
+            }
+            case 2 : {
+                listWorker[chooseDisplay].setBirthday(prompt("enter birthday"))
+
+                break;
+            }
+            case 3: {
+                listWorker[chooseDisplay].setAddress(prompt("enter address"))
+
+                break;
+            }
+            case 4 : {
+                listWorker[chooseDisplay].setLocation(prompt("Enter Location"))
+
+                break;
+            }
+            case 5: {
+                listWorker[chooseDisplay].setSalary(prompt("enter Salary"))
+                break;
+            }
+            default: {
+                alert("Failed")
+                EditInfor()
+            }
+        }
+        displayMainMenu()
+    }
+
+    function DeleteWorker() {
+        let display = "";
+        for (let i = 0; i < listWorker.length; i++) {
+            display += i + " .Name: " + listWorker[i].getName() + "\n";
+        }
+        let chooseDelete = parseInt(prompt(display))
+        listWorker.splice(chooseDelete, 1);
+        displayMainMenu()
+    }
+</script>
+</body>
+</html>

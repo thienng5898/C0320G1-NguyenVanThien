@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class PhanSo{
+        constructor(tuso,mauso) {
+            this.tuso = tuso
+            this.mauso = mauso
+        }
+        cong(phanSo){
+            if (this.mauso == phanSo.mauso){
+             return   (this.tuso + phanSo.tuso)/this.mauso
+            } else {
+                if (this.mauso % phanSo.mauso===0) {
+                    let temp = this.mauso/phanSo.mauso ;
+                    return (this.tuso  + phanSo.tuso *temp)/this.tuso
+                }else if(phanSo.mauso%this.mauso===0){
+                    let temp= phanSo.mauso/this.mauso;
+                    return (this.tuso*temp + phanSo.tuso)/phanSo.mauso;
+                }else{
+                    return (this.tuso*phanSo.mauso - phanSo.tuso*this.mauso)/(phanSo.mauso*this.mauso);
+                }
+            }
+        }
+        tru(phanSo){
+            if (this.mauso == phanSo.mauso){
+                return   (this.tuso - phanSo.tuso)/this.mauso
+            } else {
+                if (this.mauso % phanSo.mauso===0) {
+                    let temp = this.mauso/phanSo.mauso ;
+                    return (this.tuso - phanSo.tuso *temp)/this.tuso
+                }else if(phanSo.mauso%this.mauso===0){
+                    let temp= phanSo.mauso/this.mauso;
+                    return (this.tuso*temp - phanSo.tuso)/phanSo.mauso;
+                }else{
+                    return (this.tuso*phanSo.mauso - phanSo.tuso*this.mauso)/(phanSo.mauso*this.mauso);
+                }
+            }
+
+        }
+        nhan(phanSo){
+            return (this.tuso*phanSo.tuso)/(this.mauso*phanSo.mauso);
+        }
+        chia(phanSo){
+            return (this.tuso*phanSo.mauso)/(this.mauso*phanSo.tuso);
+        }
+    }
+    let a = new PhanSo(1,2)
+    let b= new PhanSo(1,2)
+    console.log(a.cong(b))
+    console.log(a.tru(b))
+    console.log(a.nhan(b))
+    console.log(a.chia(b))
+</script>
+</body>
+</html>

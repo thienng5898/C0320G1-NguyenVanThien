@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function kiemTraChuoiDoiXung(str) {
+        let check = true;
+        for(let i=0;i<str.length;i++){
+            if(str[i]!==str[str.length-1-i]){
+                check = false;
+                break;
+            }
+        }
+        return check;
+    }
+    alert(kiemTraChuoiDoiXung("TETEt"))
+</script>
+</body>
+</html>

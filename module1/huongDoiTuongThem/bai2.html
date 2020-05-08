@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function testSoHoanHao(num) {
+
+        let temp=0;
+        for(let i=0;i<num;i++){
+            if(num%i===0){
+                temp+=i;
+            }
+        }
+        if(temp===num){
+            return true;
+        } else {
+            return false;
+        }
+
+    }
+    alert(testSoHoanHao(6));
+    alert(testSoHoanHao(9));
+</script>
+</body>
+</html>

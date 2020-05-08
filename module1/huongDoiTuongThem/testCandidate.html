@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Candidate{
+        constructor(num,name,birthday,toan,van,anh) {
+            this.num = num
+            this.name = name
+            this.birthday   = birthday
+            this.toan = toan
+            this.van = van
+            this.anh = anh
+        }
+        getName(){
+            return this.name
+        }
+        getNum(){
+            return this.num
+        }
+        getBirthday(){
+            return this.birthday
+        }
+        getToan(){
+            return this.toan
+        }
+        getVan(){
+            return this.van
+        }
+        getAnh(){
+            return this.anh
+        }
+        setName(name){
+            this.name =name
+        }
+        setNum(num){
+            this.num =num
+        }
+        setBirthday(birthday){
+            this.birthday =birthday
+        }
+        setToan(diemtoan){
+            this.toan =diemtoan
+        }
+        setAnh(diemanh){
+            this.anh = diemanh
+        }
+        setVan(diemvan){
+            this.van = diemvan
+        }
+        getTong(){
+         return   ( this.getToan() +this.getAnh() +this.getVan() )
+        }
+        getInfo () {
+            return 'ID : ' + this.getNum() + '\n' +
+                'Name : ' + this.getName() + '\n' +
+                'Birthday : ' + this.getBirthday() + '\n' +
+                'Math Mark : ' + this.getToan() + '\n' +
+                'Literature Mark : ' + this.getVan() + '\n' +
+                'English Mark : ' + this.getAnh() + '\n'+
+                    'Total Mark : ' + this.getTong()
+        }
+    }
+    let listCandidate = [];
+    let tempVar = '';
+
+    class TestCandidate {
+        constructor(amountCandidate) {
+            this.amount = amountCandidate;
+        }
+        showTotalMarkHigherThan (mark) {
+            let count = 1;
+            for (let i = 0 ; i < this.amount; i++) {
+                if (listCandidate[i].getTong() >= mark) {
+                    tempVar += 'Candidate ' + count + '\n' + listCandidate[i].getInfo() +'\n';
+                    count++;
+                }
+            }
+            alert(  'Total candidate have total mark higher than \"' + mark + '\" : ' + (count - 1) + '\n' +
+                '--------------------------------------------------' + '\n' + tempVar )
+        }
+    }
+
+    let candidate1 = new Candidate('001','Lương Thiên Cường','08/11/1996',10,10,10);
+    let candidate2 = new Candidate('002','Nguyễn Văn Tèo', '09/12/1996',0,5,5);
+    let candidate3 = new Candidate('003','Nguyễn Văn Vẻ','07/11/1996',5,6,7);
+    listCandidate.push(candidate1,candidate2,candidate3);
+    let testCandidate = new TestCandidate(3);
+    testCandidate.showTotalMarkHigherThan(15);
+
+</script>
+</body>
+</html>
