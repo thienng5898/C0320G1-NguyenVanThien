@@ -2,7 +2,7 @@ package mangVaPhuongThucTrongJava.baitap;
 
 import java.util.Scanner;
 
-public class TinhTongCot {
+public class SumColumn {
     public static void main(String[] args) {
         // khai báo và cho người dùng nhập số hàng và số cột
         int m, n;

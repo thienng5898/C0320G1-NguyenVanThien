@@ -2,7 +2,7 @@ package mangVaPhuongThucTrongJava.baitap;
 
 import java.util.Scanner;
 
-public class FindMax2chieu {
+public class FindMaxArray2D {
     public static void main(String[] args) {
         // khai báo và cho người dùng nhập số hàng và số cột
         int m, n;
