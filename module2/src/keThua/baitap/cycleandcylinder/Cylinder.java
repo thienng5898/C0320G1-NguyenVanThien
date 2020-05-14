@@ -10,7 +10,7 @@ public class Cylinder extends Circle {
     }
 
     public double getHeight() {
-        return height;
+        return this.height;
     }
 
     public void setHeight(double height) {
@@ -18,19 +18,20 @@ public class Cylinder extends Circle {
     }
 
 
-
     public double getArea() {
-        return 2 * Math.PI * this.getRadius() * this.height + 2 * Math.PI * this.getRadius() *this.getRadius();
+        return 2 * Math.PI * super.getRadius() * this.height + 2 * Math.PI * super.getRadius() * super.getRadius();
     }
 
     public double getVolume() {
-        return this.getRadius()* this.getRadius() * Math.PI * height;
+        return super.getRadius() * super.getRadius() * Math.PI * this.height;
     }
+
     @Override
     public String toString() {
-        return "Cylinder with height " + getHeight() +" and radius " + getRadius() +" and color "+ getColor()
+        return "Cylinder with height " + getHeight() + " and radius " + super.getRadius() + " and color " +
+                super.getColor()
                 + " has Area= " + getArea() + " and Volume =" + getVolume()
                 + ", which is a subclass of "
-                + super.toString() ;
+                + super.toString();
     }
 }
