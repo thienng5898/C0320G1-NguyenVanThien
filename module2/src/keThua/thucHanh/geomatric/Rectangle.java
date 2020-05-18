@@ -1,8 +1,8 @@
 package keThua.thucHanh.geomatric;
 
 public class Rectangle extends Shape {
-    private double width = 1.0;
-    private double length = 1.0;
+    private double width = 4.0;
+    private double length = 3.0;
 
     public Rectangle() {
 
