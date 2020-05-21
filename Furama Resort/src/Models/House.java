@@ -1,26 +1,26 @@
 package Models;
 
 public class House extends Services{
-    private String roomstandard ;
+    private String houseStandard ;
     private String houseDescription ;
     private  int numberOfFloor ;
 
     public House() {
     }
 
-    public House(String serviceName, String id, double areaUse, int maxNumberPeople, String typeRent, double rentCosts, String roomstandard, String houseDescription, int numberOfFloor) {
+    public House(String serviceName, String id, double areaUse, int maxNumberPeople, String typeRent, double rentCosts, String houseStandard, String houseDescription, int numberOfFloor) {
         super(serviceName, id, areaUse, maxNumberPeople, typeRent, rentCosts);
-        this.roomstandard = roomstandard;
+        this.houseStandard = houseStandard;
         this.houseDescription = houseDescription;
         this.numberOfFloor = numberOfFloor;
     }
 
-    public String getRoomstandard() {
-        return roomstandard;
+    public String getHouseStandard() {
+        return houseStandard;
     }
 
-    public void setRoomstandard(String roomstandard) {
-        this.roomstandard = roomstandard;
+    public void setHouseStandard(String houseStandard) {
+        this.houseStandard = houseStandard;
     }
 
     public String getHouseDescription() {
@@ -48,7 +48,7 @@ public class House extends Services{
                 ", maxNumberPeople=" + super.getMaxNumberPeople() +
                 ", typeRent='" + super.getTypeRent() + '\'' +
                 ", rentCosts=" + super.getRentCosts() + '\'' +
-                "roomstandard='" + this.getRoomstandard() + '\'' +
+                "roomstandard='" + this.getHouseStandard() + '\'' +
                 ", houseDescription='" + this.getHouseDescription() + '\'' +
                 ", numberOfFloor=" + this.getNumberOfFloor() +
                 '}';

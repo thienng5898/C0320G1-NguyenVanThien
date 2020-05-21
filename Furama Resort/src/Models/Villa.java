@@ -3,7 +3,7 @@ package Models;
 public class Villa extends Services {
     private String roomStandard ;
     private String villaDescription ;
-    private int numberOffoor ;
+    private int numberOfFloor ;
     private double poolArea ;
 
     public Villa() {
@@ -11,11 +11,11 @@ public class Villa extends Services {
 
 
 
-    public Villa(String serviceName, String id, double areaUse, int maxNumberPeople, String typeRent, double rentCosts, String roomStandard, String villaDescription, int numberOffoor, double poolArea) {
+    public Villa(String serviceName, String id, double areaUse, int maxNumberPeople, String typeRent, double rentCosts, String roomStandard, String villaDescription, int numberOfFloor, double poolArea) {
         super(serviceName, id, areaUse, maxNumberPeople, typeRent, rentCosts);
         this.roomStandard = roomStandard;
         this.villaDescription = villaDescription;
-        this.numberOffoor = numberOffoor;
+        this.numberOfFloor = numberOfFloor;
         this.poolArea = poolArea;
 
     }
@@ -36,12 +36,12 @@ public class Villa extends Services {
         this.villaDescription = villaDescription;
     }
 
-    public int getNumberOffoor() {
-        return numberOffoor;
+    public int getnumberOfFloor() {
+        return numberOfFloor;
     }
 
-    public void setNumberOffoor(int numberOffoor) {
-        this.numberOffoor = numberOffoor;
+    public void setnumberOfFloor(int numberOfFloor) {
+        this.numberOfFloor = numberOfFloor;
     }
 
     public double getPoolArea() {
@@ -62,7 +62,7 @@ public class Villa extends Services {
                  ", rentCosts=" + super.getRentCosts() + '\'' +
                 "roomStandard='" + this.getRoomStandard() + '\'' +
                 ", villaDescription='" + this.getVillaDescription() + '\'' +
-                ", numberOffoor=" + this.getNumberOffoor() +'\'' +
+                ", numberOfFloor=" + this.getnumberOfFloor() +'\'' +
                 ", poolArea=" + this.getPoolArea() +
                 '}';
     }
