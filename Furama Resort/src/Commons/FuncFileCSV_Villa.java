@@ -88,7 +88,7 @@ public class FuncFileCSV_Villa {
                 villa.setMaxNumberPeople(Integer.valueOf(spilitData[3]));
                 villa.setTypeRent(spilitData[4]);
                 villa.setRentCosts(Double.valueOf(spilitData[5]));
-                villa.setRoomStandard(spilitData[6]);
+                villa.setVillaStandard(spilitData[6]);
                 villa.setVillaDescription(spilitData[7]);
                 villa.setVillaDescription(spilitData[8]);
                 villa.setPoolArea(Double.valueOf(spilitData[9]));
