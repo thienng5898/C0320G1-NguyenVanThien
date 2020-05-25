@@ -1,33 +1,28 @@
 package Controllers;
 
-import Commons.FuncFileCSV_Customer;
-import Commons.FuncFileCSV_House;
-import Commons.FuncFileCSV_Room;
-import Commons.FuncFileCSV_Villa;
-import Models.Customer;
-import Models.House;
-import Models.Villa;
-import Models.Room;
+import Commons.*;
+import Models.*;
 import exception.*;
 import sort.SortCustomer;
 import validation.Check;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Scanner;
+import java.util.*;
 
 public class MainController {
     ArrayList<Villa> listVilla = new ArrayList<>();
     ArrayList<House> listHouse = new ArrayList<>();
     ArrayList<Room> listRoom = new ArrayList<>();
-    ArrayList<Customer> listCustomer =new ArrayList<>();
+    ArrayList<Customer> listCustomer = new ArrayList<>();
+    Queue<Customer> customers = new LinkedList<>();
+
 
     public void displayMainMenu() {
         Scanner sc = new Scanner(System.in);
         System.out.println(
                 "1.Add New Services" + "\n" + "2.Show Services" + "\n" + "3.Add New Customer" + "\n" +
                         "4.Show Information of Customer" + "\n" + "5.Add New Booking" + "\n" +
-                        "6.Show Information of Employee" + "\n" + "7.Exit");
+                        "6.Show Information of Employee" + "\n" + "7.Add Booking 4d Cinema" + "\n" +
+                        "8.Show Booking 4d Cinema" +"\n"+"9.searchFilingCabinets"+"10.exit");
         System.out.println("in put your choice : ");
         int choice = sc.nextInt();
         switch (choice) {
@@ -56,6 +51,19 @@ public class MainController {
                 break;
             }
             case 7: {
+                addBooking4dCinema();
+                break;
+            }
+            case 8: {
+                showBooking4dCinema();
+                break;
+            }
+            case 9: {
+                searchFilingCabinets();
+                break;
+            }
+
+            case 10: {
                 System.exit(0);
             }
             default: {
@@ -218,11 +226,9 @@ public class MainController {
 
     }
 
-
-
     private void showInfoCustomer() {
         listCustomer = FuncFileCSV_Customer.getFileCSVToListCustomer();
-        Collections.sort(listCustomer ,new SortCustomer());
+        Collections.sort(listCustomer, new SortCustomer());
         for (Customer customer : listCustomer) {
             System.out.println("----------------------");
             System.out.println(customer.showInfor());
@@ -232,10 +238,94 @@ public class MainController {
     }
 
     private void addNewBooking() {
+        Scanner sc = new Scanner(System.in);
+        listCustomer = FuncFileCSV_Customer.getFileCSVToListCustomer();
+        Collections.sort(listCustomer, new SortCustomer());
+        for (int i = 0; i < listCustomer.size(); i++) {
+            System.out.println("----------------------");
+            System.out.println((i + 1) + "." + listCustomer.get(i).showInfor());
+        }
+        System.out.println("Enter your choice");
+        int choiceCustomer = sc.nextInt();
+        while (choiceCustomer < 1 || choiceCustomer > listCustomer.size()) {
+            System.out.println("bạn nhập không chính xác ,mời nhập lại");
+            choiceCustomer = sc.nextInt();
+        }
+        Customer customer = listCustomer.get(choiceCustomer - 1);
+        System.out.println("1.Booking Villa\n2.Booking House\n3.Booking Room");
+        System.out.println("Enter your choice");
+        int choiceBooking = sc.nextInt();
+        while (choiceBooking < 1 || choiceBooking > 3) {
+            System.out.println("Bạn nhập không chính xác , mời nhập lại");
+            System.out.println("1.Booking Villa\n2.Booking House\n3.Booking Room");
+            choiceBooking = sc.nextInt();
+        }
+        switch (choiceBooking) {
+            case 1: {
+                listVilla = FuncFileCSV_Villa.getFileCSVToListVilla();
+                for (int i = 0; i < listVilla.size(); i++) {
+                    System.out.println("--------------------------------------------------");
+                    System.out.println("No" + (i + 1));
+                    System.out.println(listVilla.get(i).showInfor());
+                }
+                System.out.print("Enter choice booking Villa:");
+                Villa villa = listVilla.get(sc.nextInt() - 1);
+                customer.setServices(villa);
+                break;
+            }
+            case 2: {
+                listHouse = FuncFileCSV_House.getFileCSVToListHouse();
+                for (int i = 0; i < listHouse.size(); i++) {
+                    System.out.println("--------------------------------------------------");
+                    System.out.println("No" + (i + 1));
+                    System.out.println(listHouse.get(i).showInfor());
+                }
+
+                System.out.print("Enter choice booking House:");
+                House house = listHouse.get(sc.nextInt() - 1);
+                customer.setServices(house);
+                break;
+            }
+            case 3: {
+                listRoom = FuncFileCSV_Room.getFileCSVToListRoom();
+                for (int i = 0; i < listRoom.size(); i++) {
+                    System.out.println("--------------------------------------------------");
+                    System.out.println("No" + (i + 1));
+                    System.out.println(listRoom.get(i).showInfor());
+                }
+                System.out.print("Enter choice booking Room: ");
+                Room room = listRoom.get(sc.nextInt() - 1);
+                customer.setServices(room);
+                break;
+            }
+            default: {
+                displayMainMenu();
+            }
+
+        }
+
+        ArrayList<Customer> listBooking = FuncFileCSV_Booking.getFileCSVToListBooking();
+        listBooking.add(customer);
+        FuncFileCSV_Booking.writeBookingToFileCSV(listBooking);
+
+        displayMainMenu();
 
     }
 
     private void showInfoEmployee() {
+
+        ArrayList<Employee> employees = ReadCSV_Employee.getFileCSVToListEmployee();
+        Map<Integer, Employee> employeeMap = new HashMap<>();
+        for (int i = 0; i < employees.size(); i++) {
+            employeeMap.put(i + 101, employees.get(i));
+        }
+
+        Set<Integer> keySet = employeeMap.keySet();
+        System.out.println("List employee: ");
+        for (Integer key : keySet) {
+            System.out.println(key + ":" + employeeMap.get(key));
+        }
+        displayMainMenu();
 
     }
 
@@ -370,11 +460,90 @@ public class MainController {
     }
 
     public void showAllVillaNotDuplicate() {
+        System.out.println();
+        System.out.println("Not duplicate villas: ");
+        TreeSet<Villa> villas = new TreeSet<>(FuncFileCSV_Villa.getFileCSVToListVilla());
+        for (Villa villa : villas) {
+            villa.showInfo();
+        }
+        showServices();
     }
 
     public void showAllHouseNotDuplicate() {
+        System.out.println();
+        System.out.println("Not duplicate houses: ");
+        TreeSet<House> houses = new TreeSet<>(FuncFileCSV_House.getFileCSVToListHouse());
+        for (House house : houses) {
+            house.showInfo();
+        }
+        showServices();
     }
 
     public void showAllRoomNotDuplicate() {
+        System.out.println();
+        System.out.println("Not duplicate Room: ");
+        TreeSet<Room> rooms = new TreeSet<>(FuncFileCSV_Room.getFileCSVToListRoom());
+        for (Room room : rooms) {
+            room.showInfo();
+        }
+        showServices();
+    }
+
+    public void addBooking4dCinema() {
+        Scanner sc = new Scanner(System.in);
+        ArrayList<Customer> listCustomer = FuncFileCSV_Customer.getFileCSVToListCustomer();
+        Collections.sort(listCustomer, new SortCustomer());
+        for (int i = 0; i < listCustomer.size(); i++) {
+            System.out.println("----------------------");
+            System.out.println((i + 1) + "." + listCustomer.get(i).showInfor());
+        }
+        System.out.println("Enter your choice");
+        int choiceCustomer = sc.nextInt();
+        while (choiceCustomer < 1 || choiceCustomer > listCustomer.size()) {
+            System.out.println("bạn nhập không chính xác ,mời nhập lại");
+            choiceCustomer = sc.nextInt();
+        }
+        Customer customer = listCustomer.get(choiceCustomer - 1);
+        customers.add(customer);
+        displayMainMenu();
+    }
+
+    public void showBooking4dCinema() {
+        System.out.println("list customer booking 4d cinema: ");
+        while (true) {
+            Customer customer = customers.poll();
+            if (customer == null) {
+                break;
+            }
+            System.out.println(customer);
+        }
+        displayMainMenu();
+    }
+
+    public void searchFilingCabinets() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter id Employee you want search: ");
+        String id =sc.nextLine() ;
+        ArrayList<Employee> employeeArrayList = ReadCSV_Employee.getFileCSVToListEmployee();
+        Stack<Employee> employeeStack = new Stack<>();
+        boolean flag = false ;
+        for (Employee employee :employeeArrayList){
+            employeeStack.push(employee) ;
+        }
+        while (true){
+            if (employeeStack.size()==0){
+                break;
+            }
+            Employee employee =employeeStack.pop();
+            if (id.equals(employee.getId())){
+                System.out.println(employee);
+                flag =true ;
+                break;
+            }
+        }
+        if (flag=false){
+            System.out.println("không tìm thấy employee này");
+        }
+        displayMainMenu();
     }
 }

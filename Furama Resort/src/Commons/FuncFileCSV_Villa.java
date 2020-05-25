@@ -14,7 +14,7 @@ import java.util.ArrayList;
 public class FuncFileCSV_Villa {
     private static final String COMA_DELIMITER = ",";
     private static final String NEW_LINE_SEPARATOR = "\n";
-    private static final String FILE_HEADER_VILLA = "serviceName,id,areaUse,maxNumberPeople,typeRent,rentCost,roomStandard,villaDescription,numberOfFloor";
+    private static final String FILE_HEADER_VILLA = "serviceName,id,areaUse,maxNumberPeople,typeRent,rentCost,roomStandard,villaDescription,numberOfFloor,poolArea";
     private static final String fileVilla = "src/data/Villa.csv";
 
     public static void writeVillaToFileCSV(ArrayList<Villa> listVilla) {
@@ -90,7 +90,7 @@ public class FuncFileCSV_Villa {
                 villa.setRentCosts(Double.valueOf(spilitData[5]));
                 villa.setVillaStandard(spilitData[6]);
                 villa.setVillaDescription(spilitData[7]);
-                villa.setVillaDescription(spilitData[8]);
+                villa.setnumberOfFloor(Integer.valueOf(spilitData[8]));
                 villa.setPoolArea(Double.valueOf(spilitData[9]));
                 listVilla.add(villa) ;
 

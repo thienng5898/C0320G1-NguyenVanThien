@@ -1,6 +1,6 @@
 package Models;
 
-public class House extends Services{
+public class House extends Services implements Comparable{
     private String houseStandard ;
     private String houseDescription ;
     private  int numberOfFloor ;
@@ -39,6 +39,19 @@ public class House extends Services{
         this.numberOfFloor = numberOfFloor;
     }
 
+    public  void showInfo(){
+        System.out.println("House{" +
+                "serviceName='" + super.getServiceName() + '\'' +
+                ", id='" + super.getId() + '\'' +
+                ", areaUse=" + super.getAreaUse() +'\'' +
+                ", maxNumberPeople=" + super.getMaxNumberPeople() +
+                ", typeRent='" + super.getTypeRent() + '\'' +
+                ", rentCosts=" + super.getRentCosts() + '\'' +
+                "roomstandard='" + this.getHouseStandard() + '\'' +
+                ", houseDescription='" + this.getHouseDescription() + '\'' +
+                ", numberOfFloor=" + this.getNumberOfFloor() +
+                '}');
+    }
     @Override
     public String showInfor() {
         return  "House{" +
@@ -55,4 +68,9 @@ public class House extends Services{
     }
 
 
+    @Override
+    public int compareTo(Object o) {
+        House house =(House) o;
+        return house.getServiceName().compareTo(this.getServiceName()) ;
+    }
 }

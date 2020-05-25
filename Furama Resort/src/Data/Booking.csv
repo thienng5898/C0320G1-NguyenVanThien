@@ -1,0 +1,2 @@
+ nameCustomer, idCard,  birthday,  gender,  phoneNumber,  email,  typeCustomer,  address, idService, nameService, areaUse, rentalCost, maxNumberOfPeople, typeRent
+Thien,014 856 932,14/09/1998,Unknow,999,Thienng@a.com,Diamond,Saigon,SVVL-1002,Queen,75.0,5000.0,5,Day

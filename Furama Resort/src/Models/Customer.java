@@ -9,7 +9,7 @@ public class Customer {
     private String email;
     private String typeCustomer;
     private String address;
-    private Services useService;
+    private Services services;
 
     public Customer() {
     }
@@ -23,7 +23,7 @@ public class Customer {
         this.email = email;
         this.typeCustomer = typeCustomer;
         this.address = address;
-        this.useService = useService;
+        this.services = useService;
     }
 
     public String getName() {
@@ -90,12 +90,22 @@ public class Customer {
         this.address = address;
     }
 
-    public Services getUseService() {
-        return useService;
+    public Services getServices() {
+        return services;
     }
 
-    public void setUseService(Services useService) {
-        this.useService = useService;
+    public void setServices(Services services) {
+        this.services = services;
+    }
+
+    public void setServices(String serviceName, String id, double areaUse, int maxNumberPeople, String typeRent, double rentCosts) {
+        this.services = new Villa();
+        this.services.setId(id);
+        this.services.setServiceName(serviceName);
+        this.services.setAreaUse(areaUse);
+        this.services.setRentCosts(rentCosts);
+        this.services.setMaxNumberPeople(maxNumberPeople);
+        this.services.setTypeRent(typeRent);
     }
 
     public int getYearBirthday() {
@@ -128,7 +138,6 @@ public class Customer {
                 ", email='" + email + '\'' +
                 ", typeCustomer='" + typeCustomer + '\'' +
                 ", address='" + address + '\'' +
-                ", useService=" + useService +
                 '}';
     }
 }

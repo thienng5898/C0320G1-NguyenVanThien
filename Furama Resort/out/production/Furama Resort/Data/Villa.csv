@@ -1,7 +1,6 @@
-serviceName,id,areaUse,maxNumberPeople,typeRent,rentCost,roomStandard,villaDescription,numberOfFloor
-rrr,rrr,5.0,5,rrr,5.0,rrr,0,0,5.0
-qqq,qqq,2.0,2,qqq,2.0,qqq,0,0,2.0
-rrr,rrr,3.0,3,rrr,3.0,rrr,0,0,3.0
-Thien,SVVL-1234,35.0,12,Vip,5000.0,Vip,0,0,55.0
-Thien,SVVL-5555,60.0,5,Vip,4000.0,Qui,8,0,60.0
-Rá,SVVL-1545,60.0,5,Kia,3000.0,Adđ,sadsa,4,166.0
+serviceName,id,areaUse,maxNumberPeople,typeRent,rentCost,roomStandard,villaDescription,numberOfFloor,poolArea
+Queen,SVVL-1002,75.0,5,Day,5000.0,Vip,Beautiful,3,31.0
+King,SVVL-1006,125.0,6,Day,8000.0,Svip,Full convenient,5,40.0
+Lord,SVVL-2000,175.0,18,Day,10000.0,Ssvip,Nothing to complain,15,50.0
+King,SVVL-1006,125.0,6,Day,8000.0,Svip,Full convenient,5,40.0
+Lord,SVVL-2000,175.0,18,Day,10000.0,Ssvip,Nothing to complain,15,50.0

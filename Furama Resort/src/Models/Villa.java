@@ -1,6 +1,6 @@
 package Models;
 
-public class Villa extends Services {
+public class Villa extends Services implements Comparable {
     private String villaStandard ;
     private String villaDescription ;
     private int numberOfFloor ;
@@ -8,8 +8,6 @@ public class Villa extends Services {
 
     public Villa() {
     }
-
-
 
     public Villa(String serviceName, String id, double areaUse, int maxNumberPeople, String typeRent, double rentCosts, String villaStandard, String villaDescription, int numberOfFloor, double poolArea) {
         super(serviceName, id, areaUse, maxNumberPeople, typeRent, rentCosts);
@@ -66,6 +64,25 @@ public class Villa extends Services {
                 ", poolArea=" + this.getPoolArea() +
                 '}';
     }
+    public void showInfo(){
+        System.out.println("Villa{" +
+                "serviceName='" + super.getServiceName() + '\'' +
+                ", id='" + super.getId() + '\'' +
+                ", areaUse=" + super.getAreaUse() +'\'' +
+                ", maxNumberPeople=" + super.getMaxNumberPeople() +
+                ", typeRent='" + super.getTypeRent() + '\'' +
+                ", rentCosts=" + super.getRentCosts() + '\'' +
+                "roomStandard='" + this.getRoomStandard() + '\'' +
+                ", villaDescription='" + this.getVillaDescription() + '\'' +
+                ", numberOfFloor=" + this.getnumberOfFloor() +'\'' +
+                ", poolArea=" + this.getPoolArea() +
+                '}');
+    }
 
 
+    @Override
+    public int compareTo(Object o) {
+        Villa villa = (Villa) o ;
+        return villa.getServiceName().compareTo(this.getServiceName()) ;
+    }
 }

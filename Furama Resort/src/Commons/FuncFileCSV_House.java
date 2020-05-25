@@ -15,7 +15,7 @@ import java.util.ArrayList;
 public class FuncFileCSV_House {
     private static final String COMA_DELIMITER = ",";
     private static final String NEW_LINE_SEPARATOR = "\n";
-    private static final String FILE_HEADER_HOUSE = "serviceName,id,areaUse,maxNumberPeople,typeRent,rentCost,roomStandard,houseDescription,numberOfFloor,poolArea";
+    private static final String FILE_HEADER_HOUSE = "serviceName,id,areaUse,maxNumberPeople,typeRent,rentCost,roomStandard,houseDescription,numberOfFloor";
     private static final String fileHouse = "src/data/House.csv";
 
     public static void writeHouseToFileCSV(ArrayList<House> listHouse) {

@@ -172,7 +172,6 @@ public class Check {
         regex = "^massge|karaoke|food|drink|car$";
         while (true) {
             sc = new Scanner(System.in);
-            System.out.print("Nhập vào Dịch vụ kèm theo: " );
             String freeservice = sc.nextLine();
             freeservice = freeservice.toLowerCase() ;
             if (freeservice.matches(regex)) {

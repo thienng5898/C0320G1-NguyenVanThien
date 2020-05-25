@@ -2,36 +2,33 @@ package Commons;
 
 import Models.Customer;
 
-
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.Writer;
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 
-public class FuncFileCSV_Customer {
+public class FuncFileCSV_Booking {
     private static final String COMA_DELIMITER = ",";
     private static final String NEW_LINE_SEPARATOR = "\n";
-    private static final String fileCustomer = "src/data/Customer.csv";
-    private static final String FILE_HEADER_CUSTOMER = "nameCustomer,birthday,gender,idCard,phoneNumber,email,typeCustomer,address ";
+    private static final String fileBooking = "src/data/Booking.csv";
+    private static final String FILE_HEADER_BOOKING = " nameCustomer, idCard,  birthday,  gender,  phoneNumber,  email,  typeCustomer,  address, idService, nameService, areaUse, rentalCost, maxNumberOfPeople, typeRent";
 
-    public static void writeCustomerToFileCSV(ArrayList<Customer> listCustomer) {
+    public static void writeBookingToFileCSV(ArrayList<Customer> listBooking) {
         FileWriter fileWriter = null;
+
         try {
-            fileWriter = new FileWriter(fileCustomer);
-            fileWriter.append(FILE_HEADER_CUSTOMER);
+            fileWriter = new FileWriter(fileBooking);
+            fileWriter.append(FILE_HEADER_BOOKING);
             fileWriter.append(NEW_LINE_SEPARATOR);
-            for (Customer customer : listCustomer) {
+            for (Customer customer : listBooking) {
                 fileWriter.append(customer.getName());
+                fileWriter.append(COMA_DELIMITER);
+                fileWriter.append(customer.getIdCard());
                 fileWriter.append(COMA_DELIMITER);
                 fileWriter.append(customer.getBirthday());
                 fileWriter.append(COMA_DELIMITER);
                 fileWriter.append(customer.getGender());
-                fileWriter.append(COMA_DELIMITER);
-                fileWriter.append(customer.getIdCard());
                 fileWriter.append(COMA_DELIMITER);
                 fileWriter.append(customer.getPhoneNum());
                 fileWriter.append(COMA_DELIMITER);
@@ -40,29 +37,43 @@ public class FuncFileCSV_Customer {
                 fileWriter.append(customer.getTypeCustomer());
                 fileWriter.append(COMA_DELIMITER);
                 fileWriter.append(customer.getAddress());
+                fileWriter.append(COMA_DELIMITER);
+                fileWriter.append(customer.getServices().getId());
+                fileWriter.append(COMA_DELIMITER);
+                fileWriter.append(customer.getServices().getServiceName());
+                fileWriter.append(COMA_DELIMITER);
+                fileWriter.append(String.valueOf(customer.getServices().getAreaUse()));
+                fileWriter.append(COMA_DELIMITER);
+                fileWriter.append(String.valueOf(customer.getServices().getRentCosts()));
+                fileWriter.append(COMA_DELIMITER);
+                fileWriter.append(String.valueOf(customer.getServices().getMaxNumberPeople()));
+                fileWriter.append(COMA_DELIMITER);
+                fileWriter.append(customer.getServices().getTypeRent());
                 fileWriter.append(NEW_LINE_SEPARATOR);
             }
-
-
+            System.out.println("CSV file was created successfully !!!");
         } catch (Exception e) {
-            System.out.println("Error in CsvFileWriter");
+            System.out.println("Error in CsvFileWriter !!!");
+
         } finally {
+
             try {
                 fileWriter.flush();
                 fileWriter.close();
+            } catch (IOException e) {
+                System.out.println("Error while flushing/closing fileWriter !!!");
 
-            } catch (Exception ex) {
-                System.out.println("Error when flush or close");
             }
         }
     }
-    public static ArrayList<Customer> getFileCSVToListCustomer() {
+
+    public static ArrayList<Customer> getFileCSVToListBooking() {
         BufferedReader br = null;
-        ArrayList<Customer> listCustomer = new ArrayList<Customer>();
-        Path path = Paths.get(fileCustomer);
+        ArrayList<Customer> listBooking = new ArrayList<Customer>();
+        Path path = Paths.get(fileBooking);
         if (!Files.exists(path)) {
             try {
-                Writer writer = new FileWriter(fileCustomer);
+                Writer writer = new FileWriter(fileBooking);
             } catch (Exception e) {
                 System.out.println(e.getMessage());
             }
@@ -70,12 +81,9 @@ public class FuncFileCSV_Customer {
 
         try {
             String line;
-            br = new BufferedReader(new FileReader(fileCustomer));
+            br = new BufferedReader(new FileReader(fileBooking));
             while ((line = br.readLine()) != null) {
                 String[] spilitData = line.split(",");
-                if (spilitData[0].equals("nameCustomer")) {
-                    continue ;
-                }
                 Customer customer = new Customer();
                 customer.setName(spilitData[0]);
                 customer.setBirthday(spilitData[1]);
@@ -85,8 +93,9 @@ public class FuncFileCSV_Customer {
                 customer.setEmail(spilitData[5]);
                 customer.setTypeCustomer(spilitData[6]);
                 customer.setAddress(spilitData[7]);
+                customer.setServices(spilitData[8],spilitData[9],Double.valueOf(spilitData[10]),Integer.valueOf(spilitData[11]),spilitData[12],Double.valueOf(spilitData[13]));
 
-                listCustomer.add(customer);
+                listBooking.add(customer);
 
             }
         } catch (Exception e) {
@@ -98,6 +107,7 @@ public class FuncFileCSV_Customer {
                 System.out.println(e.getMessage());
             }
         }
-        return listCustomer;
+        return listBooking;
     }
 }
+

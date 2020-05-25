@@ -1,6 +1,8 @@
-package Controllers;
+package Views;
 
-public class Test {
+import Controllers.MainController;
+
+public class Main {
     public static void main(String[] args) {
         MainController mainController = new MainController();
         mainController.displayMainMenu();
