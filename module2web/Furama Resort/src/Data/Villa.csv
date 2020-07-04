@@ -1,0 +1,7 @@
+serviceName,id,areaUse,maxNumberPeople,typeRent,rentCost,roomStandard,villaDescription,numberOfFloor,poolArea
+Queen,SVVL-1002,75.0,5,Day,5000.0,Vip,Beautiful,3,31.0
+King,SVVL-1006,125.0,6,Day,8000.0,Svip,Full convenient,5,40.0
+Lord,SVVL-2000,175.0,18,Day,10000.0,Ssvip,Nothing to complain,15,50.0
+King,SVVL-1006,125.0,6,Day,8000.0,Svip,Full convenient,5,40.0
+Lord,SVVL-2000,175.0,18,Day,10000.0,Ssvip,Nothing to complain,15,50.0
+Tien,SVVL-1536,31.0,15,Vip,3000.0,Vip,dascfsac,3,34.0

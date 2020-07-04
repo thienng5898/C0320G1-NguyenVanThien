@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="currency_converter:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1f81057d-efe1-4760-8500-dc956b480c88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Furama Resort/out/production/Furama Resort/Commons/FuncFileCSVBooking.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama Resort/out/production/Furama Resort/Commons/FuncFileCSVCustomer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama Resort/out/production/Furama Resort/Commons/FuncFileCSVHouse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama Resort/out/production/Furama Resort/Commons/FuncFileCSVRoom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama Resort/out/production/Furama Resort/Commons/FuncFileCSVVilla.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Furama Resort/out/production/Furama Resort/Commons/ReadCSVEmployee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Products_web/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Products_web/.idea/artifacts/Products_web_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Products_web/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Products_web/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Products_web/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Products_web/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Products_web/Products_web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Products_web/src/Controller/ProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Products_web/src/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Products_web/src/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Products_web/src/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Products_web/web/Product/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Products_web/web/Product/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Products_web/web/Product/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Products_web/web/Product/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Products_web/web/Product/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Products_web/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Products_web/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoormcustomer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoormcustomer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoormcustomer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoormcustomer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoormcustomer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoormcustomer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoormcustomer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoormcustomer/src/main/java/com/example/demoormcustomer/DemoormcustomerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoormcustomer/src/main/java/com/example/demoormcustomer/controllers/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoormcustomer/src/main/java/com/example/demoormcustomer/models/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoormcustomer/src/main/java/com/example/demoormcustomer/models/Province.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoormcustomer/src/main/java/com/example/demoormcustomer/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoormcustomer/src/main/java/com/example/demoormcustomer/repository/ProvinceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoormcustomer/src/main/java/com/example/demoormcustomer/services/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoormcustomer/src/main/java/com/example/demoormcustomer/services/Impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoormcustomer/src/main/java/com/example/demoormcustomer/services/Impl/ProvinceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoormcustomer/src/main/java/com/example/demoormcustomer/services/ProvinceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoormcustomer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoormcustomer/src/main/resources/templates/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoormcustomer/src/main/resources/templates/customer/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoormcustomer/src/main/resources/templates/customer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoormcustomer/src/main/resources/templates/customer/error.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoormcustomer/src/main/resources/templates/customer/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoormcustomer/src/test/java/com/example/demoormcustomer/DemoormcustomerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../discount_caculator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../discount_caculator/.idea/artifacts/discount_caculator_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../discount_caculator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../discount_caculator/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../discount_caculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../discount_caculator/discount_caculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../discount_caculator/out/artifacts/discount_caculator_war_exploded/WEB-INF/classes/CalculateServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../discount_caculator/out/artifacts/discount_caculator_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../discount_caculator/out/artifacts/discount_caculator_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../discount_caculator/out/production/discount_caculator/CalculateServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../discount_caculator/src/CalculateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../discount_caculator/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../discount_caculator/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/.idea/artifacts/displayCustomer_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/displayCustomer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/out/artifacts/displayCustomer_war_exploded/WEB-INF/classes/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/out/artifacts/displayCustomer_war_exploded/WEB-INF/classes/CustomerServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/out/artifacts/displayCustomer_war_exploded/WEB-INF/classes/listCustomer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/out/artifacts/displayCustomer_war_exploded/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/out/artifacts/displayCustomer_war_exploded/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/out/artifacts/displayCustomer_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/out/artifacts/displayCustomer_war_exploded/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/out/artifacts/displayCustomer_war_exploded/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/out/artifacts/displayCustomer_war_exploded/images/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/out/artifacts/displayCustomer_war_exploded/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/out/artifacts/displayCustomer_war_exploded/images/Uchiha_Sasuke.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/out/artifacts/displayCustomer_war_exploded/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/out/production/displayCustomer/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/out/production/displayCustomer/CustomerServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/out/production/displayCustomer/listCustomer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/src/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/src/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/src/listCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/web/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/web/images/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/web/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/web/images/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/web/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/web/images/Uchiha_Sasuke.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../displayCustomer/web/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/email-validate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/src/main/java/controllers/CalculatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/src/main/java/controllers/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/src/main/java/controllers/SandwichController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/src/main/java/controllers/TimeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/src/main/java/controllers/ValidateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/src/main/java/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/src/main/webapp/WEB-INF/views/calculator.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/src/main/webapp/WEB-INF/views/employee/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/src/main/webapp/WEB-INF/views/employee/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/src/main/webapp/WEB-INF/views/sandwich.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/src/main/webapp/WEB-INF/views/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/src/main/webapp/WEB-INF/views/worldclock.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/classes/controllers/CalculatorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/classes/controllers/EmployeeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/classes/controllers/SandwichController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/classes/controllers/TimeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/classes/controllers/ValidateController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/classes/model/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/WEB-INF/classes/controllers/CalculatorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/WEB-INF/classes/controllers/EmployeeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/WEB-INF/classes/controllers/SandwichController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/WEB-INF/classes/controllers/TimeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/WEB-INF/classes/controllers/ValidateController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/WEB-INF/classes/model/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/WEB-INF/lib/spring-aop-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/WEB-INF/lib/spring-beans-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/WEB-INF/lib/spring-context-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/WEB-INF/lib/spring-core-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/WEB-INF/lib/spring-expression-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/WEB-INF/lib/spring-jcl-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/WEB-INF/lib/spring-web-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/WEB-INF/lib/spring-webmvc-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/WEB-INF/views/calculator.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/WEB-INF/views/employee/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/WEB-INF/views/employee/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/WEB-INF/views/sandwich.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/WEB-INF/views/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/WEB-INF/views/worldclock.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/email-validate/target/email-validate/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/.gradle/5.2.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/.idea/modules/validate-email-gradle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/build/classes/java/main/controllers/EmailController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/build/libs/validate-email-gradle-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/lib/spring-aop-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/lib/spring-aspects-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/lib/spring-beans-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/lib/spring-context-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/lib/spring-context-support-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/lib/spring-core-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/lib/spring-expression-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/lib/spring-instrument-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/lib/spring-jdbc-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/lib/spring-jms-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/lib/spring-messaging-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/lib/spring-orm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/lib/spring-oxm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/lib/spring-test-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/lib/spring-tx-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/src/main/java/controllers/EmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/src/main/webapp/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/email-validate/validate-email-gradle/src/main/webapp/views/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/.idea/artifacts/java_web_mvc_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/java_web_mvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/classes/codegym/controller/CustomerServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/classes/codegym/model/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/classes/codegym/service/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/classes/codegym/service/CustomerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/out/artifacts/java_web_mvc_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/out/artifacts/java_web_mvc_war_exploded/customer/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/out/artifacts/java_web_mvc_war_exploded/customer/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/out/artifacts/java_web_mvc_war_exploded/customer/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/out/artifacts/java_web_mvc_war_exploded/customer/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/out/artifacts/java_web_mvc_war_exploded/customer/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/out/artifacts/java_web_mvc_war_exploded/error-404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/out/artifacts/java_web_mvc_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/out/production/java_web_mvc/codegym/controller/CustomerServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/out/production/java_web_mvc/codegym/model/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/out/production/java_web_mvc/codegym/service/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/out/production/java_web_mvc/codegym/service/CustomerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/src/codegym/controller/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/src/codegym/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/src/codegym/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/src/codegym/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/web/customer/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/web/customer/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/web/customer/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/web/customer/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/web/customer/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/web/error-404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_web_mvc/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/Casestudy_Database/Query1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/Casestudy_Database/create_database_casestudy.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/Casestudy_Database/insert.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/Database/Query1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/Database/bai1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/Database/create_database_casestudy.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/Database/create_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/Database/create_table_new.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/Database/insert.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/Database/new.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/Database/new1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/Database/query.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/Database/tao_khoa_chinh.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/Database/tao_khoa_phu.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/Database/tạo bảng casestudy.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/Database/ve_CSDL_cosan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/Database/xac_dinh_khoa_chinh_va _khoa_phu.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/out/production/module2/cautrucdulieuvagiaithuatcoban/baitap/implLinkedlist/MyLinkedList$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/out/production/module2/cautrucdulieuvagiaithuatcoban/baitap/implLinkedlist/MyLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/out/production/module2/cautrucdulieuvagiaithuatcoban/baitap/implLinkedlist/TestLinkedList$Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/out/production/module2/cautrucdulieuvagiaithuatcoban/baitap/implLinkedlist/TestLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/out/production/module2/cautrucdulieuvagiaithuatcoban/baitap/implarraylist/MyArrayList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/out/production/module2/cautrucdulieuvagiaithuatcoban/baitap/implarraylist/TestMyArrayList$Students.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/out/production/module2/cautrucdulieuvagiaithuatcoban/baitap/implarraylist/TestMyArrayList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/src/cautrucdulieuvagiaithuatcoban/baitap/implLinkedlist/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/src/cautrucdulieuvagiaithuatcoban/baitap/implLinkedlist/TestLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/src/cautrucdulieuvagiaithuatcoban/baitap/implarraylist/MyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/src/cautrucdulieuvagiaithuatcoban/baitap/implarraylist/TestMyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/src/main/java/codegym/controllers/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/src/main/java/codegym/controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/src/main/java/codegym/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/src/main/java/codegym/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/src/main/java/codegym/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/src/main/webapp/WEB-INF/views/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/src/main/webapp/WEB-INF/views/customer/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/src/main/webapp/WEB-INF/views/customer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/src/main/webapp/WEB-INF/views/customer/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/src/main/webapp/WEB-INF/views/customer/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/src/main/webapp/WEB-INF/views/customer/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/src/main/webapp/WEB-INF/views/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/classes/META-INF/thymeleaf-view.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/classes/codegym/controllers/CustomerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/classes/codegym/controllers/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/classes/codegym/model/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/classes/codegym/service/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/classes/codegym/service/CustomerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/classes/META-INF/thymeleaf-view.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/classes/codegym/controllers/CustomerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/classes/codegym/controllers/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/classes/codegym/model/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/classes/codegym/service/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/classes/codegym/service/CustomerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/lib/attoparser-2.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/lib/slf4j-api-1.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/lib/spring-aop-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/lib/spring-beans-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/lib/spring-context-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/lib/spring-core-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/lib/spring-expression-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/lib/spring-jcl-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/lib/spring-web-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/lib/spring-webmvc-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/lib/thymeleaf-3.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/lib/thymeleaf-spring4-3.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/lib/unbescape-1.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/views/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/views/customer/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/views/customer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/views/customer/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/views/customer/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/views/customer/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/views/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/target/thymeleaf-view/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_thyme/thymeleaf-view.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_web/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_web/.idea/artifacts/module2_web_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_web/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_web/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_web/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_web/module2_web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_web/out/artifacts/module2_web_war_exploded/WEB-INF/classes/META-INF/module2_web.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_web/out/artifacts/module2_web_war_exploded/WEB-INF/classes/ServletLogin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_web/out/artifacts/module2_web_war_exploded/WEB-INF/classes/ServletTime.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_web/out/artifacts/module2_web_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_web/out/artifacts/module2_web_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_web/out/production/module2_web/META-INF/module2_web.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_web/out/production/module2_web/ServletLogin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_web/out/production/module2_web/ServletTime.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_web/src/ServletLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_web/src/ServletTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_web/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2_web/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_blog/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_blog/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_blog/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_blog/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_blog/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_blog/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_blog/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_blog/src/main/java/com/example/my_blog/MyBlogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_blog/src/main/java/com/example/my_blog/controllers/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_blog/src/main/java/com/example/my_blog/models/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_blog/src/main/java/com/example/my_blog/repositories/BlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_blog/src/main/java/com/example/my_blog/repositories/Impl/BlogRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_blog/src/main/java/com/example/my_blog/repositories/repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_blog/src/main/java/com/example/my_blog/services/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_blog/src/main/java/com/example/my_blog/services/Impl/BlogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_blog/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_blog/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_blog/src/main/resources/templates/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_blog/src/main/resources/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_blog/src/main/resources/templates/error.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_blog/src/main/resources/templates/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_blog/src/test/java/com/example/my_blog/MyBlogApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/java/com/example/product/ProductApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/java/com/example/product/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/java/com/example/product/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/java/com/example/product/repository/Impl/ProductRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/java/com/example/product/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/java/com/example/product/repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/java/com/example/product/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/java/com/example/product/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/resources/templates/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/resources/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/resources/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/resources/templates/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/test/java/com/example/product/ProductApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Furama Resort/out/production/Furama Resort/Commons/FuncFileCSV_Booking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Furama Resort/out/production/Furama Resort/Commons/FuncFileCSV_Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Furama Resort/out/production/Furama Resort/Commons/FuncFileCSV_House.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Furama Resort/out/production/Furama Resort/Commons/FuncFileCSV_Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Furama Resort/out/production/Furama Resort/Commons/FuncFileCSV_Villa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Furama Resort/out/production/Furama Resort/Commons/ReadCSV_Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Furama Resort/out/production/Furama Resort/Controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Furama Resort/out/production/Furama Resort/Controllers/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Furama Resort/out/production/Furama Resort/Data/Villa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Furama Resort/out/production/Furama Resort/Data/Villa.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Furama Resort/out/production/Furama Resort/exception/EmailException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Furama Resort/out/production/Furama Resort/exception/EmailException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Furama Resort/src/Commons/FuncFileCSV_Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Furama Resort/src/Commons/FuncFileCSVBooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Furama Resort/src/Commons/FuncFileCSV_Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Furama Resort/src/Commons/FuncFileCSVCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Furama Resort/src/Commons/FuncFileCSV_House.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Furama Resort/src/Commons/FuncFileCSVHouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Furama Resort/src/Commons/FuncFileCSV_Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Furama Resort/src/Commons/FuncFileCSVRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Furama Resort/src/Commons/FuncFileCSV_Villa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Furama Resort/src/Commons/FuncFileCSVVilla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Furama Resort/src/Commons/ReadCSV_Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Furama Resort/src/Commons/ReadCSVEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Furama Resort/src/Controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Furama Resort/src/Controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Furama Resort/src/Data/Villa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Furama Resort/src/Data/Villa.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Furama Resort/src/exception/EmailException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Furama Resort/src/exception/EmailException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/1.nhapmonlaptrinhcanban/thuchanh/clone du an tu git" beforeDir="false" afterPath="$PROJECT_DIR$/../module1/1.nhapmonlaptrinhcanban/thuchanh/clone du an tu git" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/out/production/module2/cautrucdulieuvagiaithuatcoban/thuchanh/SimpleList/Mylist.class" beforeDir="false" afterPath="$PROJECT_DIR$/../module2/out/production/module2/cautrucdulieuvagiaithuatcoban/thuchanh/SimpleList/Mylist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/out/production/module2/cautrucdulieuvagiaithuatcoban/thuchanh/SimpleList/MylistTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../module2/out/production/module2/cautrucdulieuvagiaithuatcoban/thuchanh/SimpleList/MylistTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/src/cautrucdulieuvagiaithuatcoban/baitap/implarraylist/MyList.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\C0320G1-NguyenVanThien\currency_converter\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1d14uYhpaq0YMZxgc9NM27pWIwG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spring_convert" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.35" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.35" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <deployment>
+        <artifact name="currency_converter:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_35_currency_converter" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49637" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="currency_converter:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f81057d-efe1-4760-8500-dc956b480c88" name="Default Changelist" comment="" />
+      <created>1591579488405</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591579488405</updated>
+      <workItem from="1591579531961" duration="793000" />
+      <workItem from="1591597902649" duration="285000" />
+      <workItem from="1591598512114" duration="362000" />
+      <workItem from="1591714258456" duration="270000" />
+      <workItem from="1591715488442" duration="1322000" />
+      <workItem from="1591751568390" duration="655000" />
+      <workItem from="1592321042090" duration="75000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591579871802">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1591579871802" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1591751648958">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591751648958" />
+    <state width="904" height="151" key="GridCell.Tab.0.bottom" timestamp="1591580340871">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="151" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591580340871" />
+    <state width="904" height="151" key="GridCell.Tab.0.center" timestamp="1591580340871">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="151" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591580340871" />
+    <state width="904" height="151" key="GridCell.Tab.0.left" timestamp="1591580340871">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="151" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591580340871" />
+    <state width="904" height="151" key="GridCell.Tab.0.right" timestamp="1591580340871">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="151" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591580340871" />
+    <state width="904" height="151" key="GridCell.Tab.1.bottom" timestamp="1591580340871">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="151" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591580340871" />
+    <state width="904" height="151" key="GridCell.Tab.1.center" timestamp="1591580340871">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="151" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1591580340871" />
+    <state width="904" height="151" key="GridCell.Tab.1.left" timestamp="1591580340871">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="151" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1591580340871" />
+    <state width="904" height="151" key="GridCell.Tab.1.right" timestamp="1591580340871">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="151" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1591580340871" />
+    <state width="904" height="151" key="GridCell.Tab.2.bottom" timestamp="1591580340871">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="151" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591580340871" />
+    <state width="904" height="151" key="GridCell.Tab.2.center" timestamp="1591580340871">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="151" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1591580340871" />
+    <state width="904" height="151" key="GridCell.Tab.2.left" timestamp="1591580340871">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="151" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1591580340871" />
+    <state width="904" height="151" key="GridCell.Tab.2.right" timestamp="1591580340871">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="904" height="151" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1591580340871" />
+    <state x="65" y="0" key="new project wizard" timestamp="1591580336312">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1591580336312" />
+  </component>
+</project>
