@@ -1,0 +1,52 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+#head {
+    height: 120px;
+    background-color: aqua;
+    margin-bottom: 0;
+
+}
+
+#head-link {
+    background-color: crimson;
+    height: 45px;
+}
+
+#left {
+    width: 20%;
+    height: 400px;
+    float: left;
+    background-color: darkcyan;
+}
+
+#content {
+    width: 50%;
+    height: 400px;
+    background-color: aliceblue;
+    float: left;
+}
+
+#right {
+    width: 30%;
+    height: 400px;
+    background-color: darkgreen;
+    float: left;
+}
+
+#footer {
+    height: 100px;
+    background-color: brown;
+    clear: both;
+}
+
+p {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: darkorange;
+}
