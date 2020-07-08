@@ -2,26 +2,287 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e09afe84-043d-4353-ba6b-6190acf86a39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case study/yeu cau6/task 2/employee2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giaiThuat/kiemTraChuoiDoiXung.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giaiThuat/kiemTraSoChinhPhuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giaiThuat/kiemTraSoHoanHao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giaiThuat/kiemTraSoNguyenTo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giaiThuat/mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giaiThuat/mang2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huongDoiTuongThem/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huongDoiTuongThem/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huongDoiTuongThem/bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huongDoiTuongThem/bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huongDoiTuongThem/canBo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huongDoiTuongThem/managerStudent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huongDoiTuongThem/phanSo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huongDoiTuongThem/testCandidate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/java/com/codegym/blog/BlogApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/java/com/codegym/blog/controllers/CategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/java/com/codegym/blog/controllers/PostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/java/com/codegym/blog/models/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/java/com/codegym/blog/models/Post.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/java/com/codegym/blog/repositories/CategoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/java/com/codegym/blog/repositories/PostRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/java/com/codegym/blog/services/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/java/com/codegym/blog/services/Impl/CategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/java/com/codegym/blog/services/Impl/PostServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/java/com/codegym/blog/services/PostService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/java/com/codegym/blog/validation/NameAuThorValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/java/com/codegym/blog/validation/NameAuthorConstraint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/bootstrap/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/resources/templates/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/resources/templates/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/resources/templates/category/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/resources/templates/category/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/resources/templates/category/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/resources/templates/category/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/resources/templates/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/resources/templates/post/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/resources/templates/post/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/resources/templates/post/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/resources/templates/post/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/resources/templates/post/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/test/java/com/codegym/blog/BlogApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/CaseStudyJavaWbeApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/controllers/ContractAndDetailContractController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/controllers/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/controllers/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/controllers/ServiceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/models/Contract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/models/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/models/DetailContract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/models/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/models/TypeCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/models/TypeRent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/models/TypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/repositories/ContractRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/repositories/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/repositories/DetailContractRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/repositories/ServiceRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/repositories/TypeCustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/repositories/TypeRentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/repositories/TypeServiceRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/services/ContractService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/services/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/services/DetailContractService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/services/Impl/ContractServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/services/Impl/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/services/Impl/DetailContractServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/services/Impl/ServiceServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/services/Impl/TypeCustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/services/Impl/TypeRentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/services/Impl/TypeServiceServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/services/ServiceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/services/TypeCustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/services/TypeRentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/java/com/codegym/casestudyjavawbe/services/TypeServiceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/Source/Flaticon.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/Source/Magnific-Popup-master.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/Source/OwlCarousel2-2.3.4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/Source/SlickNav-master.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/Source/bootstrap-4.3.1-dist.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/Source/font-awesome-4.7.0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/Source/jquery-nice-select-1.1.0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/Source/jquery-ui-1.12.1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/Source/photo credits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/Source/sass.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/css/flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/css/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/css/nice-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/css/slicknav.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/fonts/Flaticon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/fonts/Flaticon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/fonts/Flaticon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/fonts/Flaticon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/fonts/Linearicons-Free.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/fonts/Linearicons-Free.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/fonts/Linearicons-Free.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/fonts/Linearicons-Free.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/fonts/Linearicons-Free.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/about/about-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/about/about-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/about/about-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/about/about-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/about/award-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/about/milestone-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/about_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/anhwall-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/anhwall.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/author-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/author-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/beach.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/beach2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/beach3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/blog-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/blog-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/blog-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/blog-add.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/calendar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/contact-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/faci-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/faci-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/furama-resort-da-nang.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/hero-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/home-about-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/home-about-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/home-about-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/home-about-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/placeholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/rooms/room-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/rooms/room-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/rooms/room-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/rooms/room-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/services/kid-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/services/service-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/services/service-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/services/service-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/services/service-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/services/service-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/services/service-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/services/service-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/services/service-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/services/service-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/services/service-icon-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/services/service-icon-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/services/service-icon-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/services/service-icon-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/services/service-icon-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/services/service-icon-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/services/service-icon-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/services/service-icon-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/services/service-icon-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/video-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/img/video-inside-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/js/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/js/jquery.nice-select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/js/jquery.slicknav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/static/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/templates/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/templates/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/templates/contract/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/templates/contract/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/templates/customer/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/templates/customer/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/templates/customer/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/templates/customer/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/templates/detailcontract/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/templates/service/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/templates/service/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/main/resources/templates/service/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy-javawbe/src/test/java/com/codegym/casestudyjavawbe/CaseStudyJavaWbeApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/src/main/java/com/example/demoormcustomer/DemoormcustomerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/src/main/java/com/example/demoormcustomer/config/ApplicationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/src/main/java/com/example/demoormcustomer/controllers/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/src/main/java/com/example/demoormcustomer/controllers/ProvinceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/src/main/java/com/example/demoormcustomer/models/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/src/main/java/com/example/demoormcustomer/models/Province.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/src/main/java/com/example/demoormcustomer/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/src/main/java/com/example/demoormcustomer/repository/ProvinceRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/src/main/java/com/example/demoormcustomer/services/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/src/main/java/com/example/demoormcustomer/services/Impl/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/src/main/java/com/example/demoormcustomer/services/Impl/ProvinceServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/src/main/java/com/example/demoormcustomer/services/ProvinceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/src/main/resources/templates/customer/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/src/main/resources/templates/customer/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/src/main/resources/templates/customer/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/src/main/resources/templates/customer/error.404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/src/main/resources/templates/customer/province/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/src/main/resources/templates/customer/province/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/src/main/resources/templates/customer/province/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/src/main/resources/templates/customer/province/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/src/main/resources/templates/customer/province/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/src/main/resources/templates/customer/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoormcustomer/src/test/java/com/example/demoormcustomer/DemoormcustomerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javwbe/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javwbe/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javwbe/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javwbe/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javwbe/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javwbe/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javwbe/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javwbe/src/main/java/com/exam/javwbe/JavwbeApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javwbe/src/main/java/com/exam/javwbe/controllers/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javwbe/src/main/java/com/exam/javwbe/entity/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javwbe/src/main/java/com/exam/javwbe/repositories/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javwbe/src/main/java/com/exam/javwbe/services/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javwbe/src/main/java/com/exam/javwbe/services/Impl/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javwbe/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javwbe/src/main/resources/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javwbe/src/main/resources/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javwbe/src/main/resources/templates/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javwbe/src/main/resources/templates/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javwbe/src/main/resources/templates/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javwbe/src/main/resources/templates/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javwbe/src/main/resources/templates/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javwbe/src/main/resources/templates/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javwbe/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javwbe/src/test/java/com/exam/javwbe/JavwbeApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/1.nhapmonlaptrinhcanban/thuchanh/clone du an tu git" beforeDir="false" afterPath="$PROJECT_DIR$/1.nhapmonlaptrinhcanban/thuchanh/clone du an tu git" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1.nhapmonlaptrinhcanban/thuchanh/clone du an tu git/New Text Document.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11.boucing ball game/castudio.html" beforeDir="false" afterPath="$PROJECT_DIR$/11.boucing ball game/castudio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rest-customer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rest-customer/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rest-customer/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rest-customer/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rest-customer/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rest-customer/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rest-customer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rest-customer/src/main/java/com/example/restcustomer/RestCustomerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rest-customer/src/main/java/com/example/restcustomer/controllers/CustomerRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rest-customer/src/main/java/com/example/restcustomer/models/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rest-customer/src/main/java/com/example/restcustomer/repositories/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rest-customer/src/main/java/com/example/restcustomer/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rest-customer/src/main/java/com/example/restcustomer/service/Impl/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rest-customer/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rest-customer/src/test/java/com/example/restcustomer/RestCustomerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spirng-validate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spirng-validate/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spirng-validate/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spirng-validate/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spirng-validate/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spirng-validate/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spirng-validate/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spirng-validate/src/main/java/com/valid/spirngvalidate/SpringValidateApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spirng-validate/src/main/java/com/valid/spirngvalidate/controllers/PhoneController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spirng-validate/src/main/java/com/valid/spirngvalidate/controllers/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spirng-validate/src/main/java/com/valid/spirngvalidate/models/PhoneNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spirng-validate/src/main/java/com/valid/spirngvalidate/models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spirng-validate/src/main/java/com/valid/spirngvalidate/validation/ContactNumberConstraint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spirng-validate/src/main/java/com/valid/spirngvalidate/validation/ContactNumberValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spirng-validate/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spirng-validate/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spirng-validate/src/main/resources/templates/phoneSuccess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spirng-validate/src/main/resources/templates/phoneValid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spirng-validate/src/main/resources/templates/result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spirng-validate/src/test/java/com/valid/spirngvalidate/SpirngValidateApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +412,7 @@
       <workItem from="1588645507941" duration="10031000" />
       <workItem from="1588732260864" duration="214000" />
       <workItem from="1588858852884" duration="69000" />
+      <workItem from="1593878185317" duration="219000" />
     </task>
     <servers />
   </component>
@@ -170,10 +432,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="430" y="219" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1588602894599" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1586141488705">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1593878407929">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586141488705" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593878407929" />
     <state width="1344" height="174" key="GridCell.Tab.0.bottom" timestamp="1586515368418">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
