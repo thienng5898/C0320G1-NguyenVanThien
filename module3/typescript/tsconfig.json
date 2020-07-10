@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "watch": true,
+    "outDir": "thuchanh/js-file"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
