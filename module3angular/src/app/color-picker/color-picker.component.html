@@ -1,12 +1,7 @@
 <div>
   <label>Chọn màu:</label>
-  <select [(ngModel)]="background" >
-    <!--    [value]="operator" (change)="onSelectChange($event.target.value)">-->
-    <option value="red">red</option>
-    <option value="yellow">yellow</option>
-    <option value="black">black</option>
-    <option value="pink">pink</option>
-  </select>
+  <input type="color"
+         [value]="background" (change)="onChange($event.target.value)">
 </div>
 
 <p>Output:</p>

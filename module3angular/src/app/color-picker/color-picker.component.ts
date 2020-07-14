@@ -8,10 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class ColorPickerComponent implements OnInit {
 
   background = '#ff5d04';
-  // onChange(value) {
-  //   this.background = value;
-  // }
-  constructor() { }
+  onChange(value) {
+    this.background = value;
+  }
+  constructor() {}
 
   ngOnInit() {
   }

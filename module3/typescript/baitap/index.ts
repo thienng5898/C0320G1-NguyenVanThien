@@ -1,27 +1,35 @@
-function httpGet(url: string): Promise<any> {
-    return new Promise(function(resolve, reject) {
-        const request = new XMLHttpRequest();
-        request.onload = function() {
-            if (this.status === 200) {
-                // Success
-                resolve(this.response);
-            } else {
-                // Something went wrong (404 etc.)
-                reject(new Error(this.statusText));
-            }
-        };
-        request.onerror = function() {
-            reject(new Error('XMLHttpRequest Error: ' + this.statusText));
-        };
-        request.open('GET', url);
-        request.send();
+interface ISingleRepo {
+    name: string;
+}
+interface IRepos {
+    items: Array<ISingleRepo>;
+}
+async function fetchRepo(): Promise<Array<ISingleRepo>> {
+    let res: Response | IRepos = await fetch('https://api.github.com/search/repositories?q=CGDN');
+    res = await res.json() as IRepos;
+    return res.items;
+}
+
+function createItem(text: string): HTMLLIElement {
+    const item = document.createElement('li') as HTMLLIElement;
+    item.textContent = text;
+    return item;
+}
+
+const container = document.querySelector('.app .list');
+
+// @ts-ignore
+async function main() {
+    // step 1: fetch repo
+    const res = await fetchRepo();
+    // step 2: lặp qua mảng các item trả về
+    // step 3: call hàm createItem sau đó truyền vào name của từng item ở mỗi vòng lặp
+    // step 4: call hàm container.appendChild(item mà hàm createItem trả về)
+    res.forEach((item: any) => {
+        console.log((item));
+        const li = createItem(item.owner.followers_url);
+        container.appendChild(li);
     });
-};
-httpGet('https://api.github.com/search/repositories?q=angular').then(
-    function(value) {
-        console.log('Contents: ' + value);
-    },
-    function(reason) {
-        console.error('Something went wrong', reason);
-    }
-);
+}
+
+main();
