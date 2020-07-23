@@ -1,0 +1,163 @@
+<h3 class="text-center">Chỉnh Sửa Nhân Viên</h3>
+
+<div class="container">
+  <form [formGroup]="employeeEditForm" (ngSubmit)="onSubmit()" class=" w-75 mx-auto">
+    <div class="form-group row">
+      <label class="input-group ">
+        <div class="input-group-append">
+          <span class="input-group-text">Mã Nhân Viên</span>
+        </div>
+        <input type="text" class="form-control" formControlName="id_employee">
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="employeeEditForm.get('id_employee').invalid && employeeEditForm.get('id_employee').touched">
+      <span *ngIf="employeeEditForm.get('id_employee').hasError('required')">Mã nhân viên không được để trống</span>
+      <span *ngIf="employeeEditForm.get('id_employee').hasError('pattern')">Mã nhân viên không đúng định dạng !</span>
+    </div>
+    <div class="form-group row">
+      <label class="input-group">
+        <div class="input-group-append">
+          <span class="input-group-text"> Tên Nhân Viên</span>
+        </div>
+        <input type="text" class="form-control" formControlName="name">
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="employeeEditForm.get('name').invalid && employeeEditForm.get('name').touched">
+      Tên nhân viên không được để trống
+    </div>
+    <div class="form-group row">
+      <label class="input-group">
+        <div class="input-group-append">
+          <span class="input-group-text"> Ngày Sinh</span>
+        </div>
+        <mat-form-field>
+          <input [max]="maxDate" [min]="minDate" class="form-control" employeeEditForm="birthday" matInput
+                 [matDatepicker]="myDatepicker"
+                 value="{{employeeEditForm.get('birthday').value | date :  'yyyy-MM-dd\'T\'HH:mm:ss.SSS\'Z\''}}">
+          <mat-datepicker-toggle matSuffix [for]="myDatepicker"></mat-datepicker-toggle>
+          <mat-datepicker #myDatepicker startView="year"></mat-datepicker>
+        </mat-form-field>
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="employeeEditForm.get('birthday').invalid && employeeEditForm.get('birthday').touched">
+      Ngày sinh không được để trống
+    </div>
+    <div class="form-group row">
+      <label class="input-group">
+        <div class="input-group-append">
+          <span class="input-group-text">CMND</span>
+        </div>
+        <input type="text" class="form-control" formControlName="id_card">
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="employeeEditForm.get('id_card').invalid && employeeEditForm.get('id_card').touched">
+      <span *ngIf="employeeEditForm.get('id_card').hasError('required')">CMND không được để trống</span>
+      <span *ngIf="employeeEditForm.get('id_card').hasError('pattern')">CMND 9 hoặc 12 số !</span>
+    </div>
+    <div class="form-group row">
+      <label class="input-group">
+        <div class="input-group-append">
+          <span class="input-group-text"> Số Điện Thoại</span>
+        </div>
+        <input type="text" class="form-control" formControlName="phone">
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="employeeEditForm.get('phone').invalid && employeeEditForm.get('phone').touched">
+      <span *ngIf="employeeEditForm.get('phone').hasError('required')">Số Điện Thoại không được để trống</span>
+      <span *ngIf="employeeEditForm.get('phone').hasError('pattern')">Số Điện Thoại 090xxxxxxx hoặc 091xxxxxxx hoặc (84)+90xxxxxxx hoặc (84)+91xxxxxxx !</span>
+    </div>
+    <div class="form-group row">
+      <label class="input-group">
+        <div class="input-group-append">
+          <span class="input-group-text">Email</span>
+        </div>
+        <input type="email" class="form-control" formControlName="email">
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="employeeEditForm.get('email').invalid && employeeEditForm.get('email').touched">
+      <span *ngIf="employeeEditForm.get('email').hasError('required')">Email không được để trống</span>
+      <span *ngIf="employeeEditForm.get('email').hasError('email')">Email không đúng định dạng !</span>
+    </div>
+    <div class="form-group row">
+      <label class="input-group">
+        <div class="input-group-append">
+          <span class="input-group-text">Trình Độ</span>
+        </div>
+        <select formControlName="degree" class="form-control">
+          <option value="">Chọn</option>
+          <option value="Trung Cấp">Trung Cấp</option>
+          <option value="Cao Đẳng">Cao Đẳng</option>
+          <option value="Đại Học">Đại Học</option>
+          <option value="Sau Đại Học">Sau Đại Học</option>
+        </select>
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="employeeEditForm.get('degree').invalid && employeeEditForm.get('degree').touched">
+      Trình Độ không được để trống
+    </div>
+    <div class="form-group row">
+      <label class="input-group">
+        <div class="input-group-append">
+          <span class="input-group-text"> Vị trí</span>
+        </div>
+        <select formControlName="position" class="form-control">
+          <option value="">Chọn</option>
+          <option value="Lễ tân">Lễ tân</option>
+          <option value="Phục vụ">Phục vụ</option>
+          <option value="Chuyên viên">Chuyên viên</option>
+          <option value="Giám sát">Giám sát</option>
+          <option value="Quản lý">Quản lý</option>
+          <option value="Giám đốc">Giám đốc</option>
+        </select>
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="employeeEditForm.get('position').invalid && employeeEditForm.get('position').touched">
+      Vị Trí không được để trống
+    </div>
+    <div class="form-group row">
+      <label class="input-group">
+        <div class="input-group-append">
+          <span class="input-group-text"> Bộ Phận</span>
+        </div>
+        <select formControlName="part" class="form-control">
+          <option value="">Chọn</option>
+          <option value="Sale – Marketing">Sale – Marketing</option>
+          <option value="Hành Chính">Hành Chính</option>
+          <option value="Phục vụ">Phục vụ</option>
+          <option value="Quản lý">Quản lý</option>
+        </select>
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="employeeEditForm.get('part').invalid && employeeEditForm.get('part').touched">
+      Bộ phận không được để trống
+    </div>
+    <div class="form-group row">
+      <label class="input-group">
+        <div class="input-group-append">
+          <span class="input-group-text"> Lương</span>
+        </div>
+        <input type="number" class="form-control" formControlName="salary">
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="employeeEditForm.get('salary').invalid && employeeEditForm.get('salary').touched">
+      <span *ngIf="employeeEditForm.get('salary').hasError('required')">Lương không được để trống</span>
+      <span *ngIf="employeeEditForm.get('salary').hasError('min')">Lương không được âm !</span>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <input [disabled]="employeeEditForm.invalid" type="submit" class="btn btn-success" value="Chỉnh Sửa">
+      <button mat-dialog-close class="btn btn-primary ml-3">Hủy</button>
+    </div>
+  </form>
+</div>
+
+

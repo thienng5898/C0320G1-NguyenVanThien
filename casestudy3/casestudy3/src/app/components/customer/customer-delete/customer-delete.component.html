@@ -1,0 +1,8 @@
+<h1> Xóa Khách Hàng </h1>
+<hr>
+<p class="my-3">Bạn Có Chắc Muốn Xóa <span class="text-danger font-weight-bold">{{customerName}}</span> Không ?</p>
+<div class="row d-flex justify-content-end">
+  <button (click)="deleteCustomer()" class="btn btn-danger mr-3">Xóa</button>
+  <button mat-dialog-close class="btn btn-primary mr-3">Hủy</button>
+</div>
+

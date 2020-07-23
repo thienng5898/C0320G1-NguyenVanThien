@@ -1,0 +1,123 @@
+<h3 class="text-center">Thêm Mới Khách Hàng</h3>
+
+<div class="container">
+  <form [formGroup]="customerForm" (ngSubmit)="onSubmit()" class=" w-75 mx-auto">
+    <div class="form-group row">
+      <label class="input-group ">
+        <div class="input-group-append">
+          <span class="input-group-text" >Mã Khách hàng</span>
+        </div>
+        <input type="text" class="form-control" formControlName="id_customer">
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="customerForm.get('id_customer').invalid && customerForm.get('id_customer').touched">
+      <span *ngIf="customerForm.get('id_customer').hasError('required')">Mã Khách Hàng không được để trống</span>
+      <span *ngIf="customerForm.get('id_customer').hasError('pattern')">Mã Khách Hàng không đúng định dạng !</span>
+    </div>
+    <div class="form-group row">
+      <label class="input-group">
+        <div class="input-group-append">
+          <span class="input-group-text" >Loại Khách</span>
+        </div>
+        <select formControlName="type_customer" class="form-control">
+          <option value="">Chọn</option>
+          <option value="Diamond">Diamond</option>
+          <option value="Platinum">Platinum</option>
+          <option value="Gold">Gold</option>
+          <option value="Silver">Silver</option>
+          <option value="Member">Member</option>
+        </select>
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="customerForm.get('type_customer').invalid && customerForm.get('type_customer').touched">
+      Loại Khách Hàng không được để trống
+    </div>
+    <div class="form-group row">
+      <label class="input-group ">
+        <div class="input-group-append">
+          <span class="input-group-text" >Tên Khách hàng</span>
+        </div>
+        <input type="text" class="form-control" formControlName="name">
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="customerForm.get('name').invalid && customerForm.get('name').touched">
+      Tên Khách Hàng không được để trống
+    </div>
+    <div class="form-group row">
+      <label class="input-group ">
+        <div class="input-group-append">
+          <span class="input-group-text" >Ngày Sinh</span>
+        </div>
+        <mat-form-field>
+          <input [max]="maxDate" [min]="minDate" class="form-control" formControlName="birthday" matInput [matDatepicker]="myDatepicker" >
+          <mat-datepicker-toggle matSuffix [for]="myDatepicker"></mat-datepicker-toggle>
+          <mat-datepicker #myDatepicker startView="year"></mat-datepicker>
+        </mat-form-field>
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="customerForm.get('birthday').invalid && customerForm.get('birthday').touched">
+      Ngày sinh không được để trống
+    </div>
+    <div class="form-group row">
+      <label class="input-group ">
+        <div class="input-group-append">
+          <span class="input-group-text" >CMND</span>
+        </div>
+        <input type="text" class="form-control" formControlName="id_card">
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="customerForm.get('id_card').invalid && customerForm.get('id_card').touched">
+      <span *ngIf="customerForm.get('id_card').hasError('required')">CMND không được để trống</span>
+      <span *ngIf="customerForm.get('id_card').hasError('pattern')">CMND 9 hoặc 12 số !</span>
+    </div>
+    <div class="form-group row">
+      <label class="input-group ">
+        <div class="input-group-append">
+          <span class="input-group-text" >Số Điện Thoại </span>
+        </div>
+        <input type="text" class="form-control" formControlName="phone">
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="customerForm.get('phone').invalid && customerForm.get('phone').touched">
+      <span *ngIf="customerForm.get('phone').hasError('required')">Số Điện Thoại không được để trống</span>
+      <span *ngIf="customerForm.get('phone').hasError('pattern')">Số Điện Thoại 090xxxxxxx hoặc 091xxxxxxx hoặc (84)+90xxxxxxx hoặc (84)+91xxxxxxx !</span>
+    </div>
+    <div class="form-group row">
+      <label class="input-group ">
+        <div class="input-group-append">
+          <span class="input-group-text" >Email</span>
+        </div>
+        <input type="email" class="form-control" formControlName="email">
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="customerForm.get('email').invalid && customerForm.get('email').touched">
+      <span *ngIf="customerForm.get('email').hasError('required')">Email không được để trống</span>
+      <span *ngIf="customerForm.get('email').hasError('email')">Email không đúng định dạng !</span>
+    </div>
+
+    <div class="form-group row">
+      <label class="input-group ">
+        <div class="input-group-append">
+          <span class="input-group-text" >Địa Chỉ</span>
+        </div>
+        <input type="text" class="form-control" formControlName="address">
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="customerForm.get('address').invalid && customerForm.get('address').touched">
+      <span *ngIf="customerForm.get('salary').hasError('required')">Địa chỉ không được để trống</span>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <input [disabled]="customerForm.invalid" type="submit" class="btn btn-success" value="Thêm Mới">
+      <button mat-dialog-close class="btn btn-primary ml-3">Hủy</button>
+    </div>
+  </form>
+</div>
+

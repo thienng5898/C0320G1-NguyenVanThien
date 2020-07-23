@@ -1,63 +1,52 @@
 <div class="row justify-content-between">
   <h2>Danh Sách Nhân Viên</h2>
   <div class="d-flex">
-    <input class="form-control mr-2 border border-primary" type="text" style="width: 300px;" placeholder="Something">
-    <button class="btn btn-primary">Tìm kiếm</button>
+    <label>
+      <input class="form-control mr-2 border border-primary" type="text"
+             style="width: 300px;" placeholder="Tên nhân viên" [(ngModel)]="term">
+    </label>
+    <button class="btn btn-primary"><i class="fas fa-search mr-2"></i>Tìm kiếm</button>
   </div>
 </div>
 
 <div class="row mt-4">
-  <button class="btn btn-success" routerLink="/employee-add">Thêm mới</button>
-  <table class="table mt-4 table-striped">
+  <button class="btn btn-success" (click)="openDialogAdd()"><span class="fas fa-user-plus mr-2" ></span>Thêm mới</button>
+  <table class="table mt-4 table-striped" style="font-size: 12px; font-weight: bolder">
     <thead>
-    <tr>
-      <th>ID</th>
-      <th>Họ và tên</th>
-      <th>Số CMND</th>
+    <tr class="text-center">
+      <th>Mã Nhân Viên</th>
+      <th>Tên</th>
+      <th>Ngày Sinh</th>
+      <th>CMND</th>
+      <th>Số Điện Thoại</th>
+      <th>Email</th>
+      <th>Trình Độ</th>
+      <th>Vị Trí</th>
+      <th>Bộ Phận</th>
+      <th>Lương</th>
       <th>Action</th>
     </tr>
     </thead>
     <tbody>
-    <tr>
-      <td>1</td>
-      <td>Toàn</td>
-      <td>0123654</td>
-      <td>
-        <button class="btn btn-warning mr-3">Sửa</button>
-        <button class="btn btn-danger mr-3">Xóa</button>
-        <button class="btn btn-primary">Chi Tiết</button>
-      </td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>Toàn</td>
-      <td>0123654</td>
-      <td>
-        <button class="btn btn-warning mr-3">Sửa</button>
-        <button class="btn btn-danger mr-3">Xóa</button>
-        <button class="btn btn-primary">Chi Tiết</button>
-      </td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>Toàn</td>
-      <td>0123654</td>
-      <td>
-        <button class="btn btn-warning mr-3">Sửa</button>
-        <button class="btn btn-danger mr-3">Xóa</button>
-        <button class="btn btn-primary">Chi Tiết</button>
-      </td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>Toàn</td>
-      <td>0123654</td>
-      <td>
-        <button class="btn btn-warning mr-3">Sửa</button>
-        <button class="btn btn-danger mr-3">Xóa</button>
-        <button class="btn btn-primary">Chi Tiết</button>
+    <tr *ngFor="let employee of employees |filter:term| paginate: { itemsPerPage: 3, currentPage: p }" class="text-center">
+      <td>{{employee.id_employee}}</td>
+      <td>{{employee.name}}</td>
+      <td>{{employee.birthday | date: 'dd/MM/yyyy'}}</td>
+      <td>{{employee.id_card}}</td>
+      <td>{{employee.phone}}</td>
+      <td>{{employee.email}}</td>
+      <td>{{employee.degree}}</td>
+      <td>{{employee.position}}</td>
+      <td>{{employee.part}}</td>
+      <td>{{employee.salary}}  Triệu </td>
+      <td class="d-flex  justify-content-center">
+        <button (click)="openDialogEdit(employee.id)"class="btn btn-warning mr-2 "><span class="fas fa-edit"></span></button>
+        <button (click)="openDialogDelete(employee.id)" class="btn btn-danger mr-2"><span class="fas fa-trash"></span></button>
       </td>
     </tr>
     </tbody>
   </table>
+  <div class="p-3 mx-auto">
+  <pagination-controls (pageChange)="p = $event" (pageBoundsCorrection)="p = $event"></pagination-controls>
+  </div>
 </div>

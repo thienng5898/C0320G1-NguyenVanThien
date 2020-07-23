@@ -1,0 +1,50 @@
+<div class="row justify-content-between">
+  <h2>Danh Sách Khách Hàng</h2>
+  <div class="d-flex">
+    <label>
+      <input class="form-control mr-2 border border-primary" type="text"
+             style="width: 300px;" placeholder="Tên Khách Hàng" [(ngModel)]="term">
+    </label>
+    <button class="btn btn-primary">Tìm kiếm</button>
+  </div>
+</div>
+
+<div class="row mt-4">
+  <button class="btn btn-success" (click)="openDialogAdd()">Thêm mới</button>
+  <table class="table mt-4 table-striped" style="font-size: 12px; font-weight: bolder">
+    <thead>
+    <tr class="text-center">
+      <th>Mã Khách Hàng</th>
+      <th>Loại Khách Hàng</th>
+      <th>Tên</th>
+      <th>Ngày Sinh</th>
+      <th>CMND</th>
+      <th>Số Điện Thoại</th>
+      <th>Email</th>
+      <th>Địa chỉ</th>
+      <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let customer of customers |filter:term| paginate: { itemsPerPage: 3, currentPage: p };" class="text-center">
+      <td>{{customer.id_customer}}</td>
+      <td>{{customer.type_customer}}</td>
+      <td>{{customer.name}}</td>
+      <td>{{customer.birthday | date: 'dd/MM/yyyy'}}</td>
+      <td>{{customer.id_card}}</td>
+      <td>{{customer.phone}}</td>
+      <td>{{customer.email}}</td>
+      <td>{{customer.address}}</td>
+      <td class="d-flex justify-content-center ">
+        <button (click)="openDialogEdit(customer.id)" class="btn btn-warning mr-2 "><span class="fas fa-edit"></span></button>
+        <button (click)="openDialogDelete(customer.id)" class="btn btn-danger mr-2"><span class="fas fa-trash"></span></button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+  <div class="p-3 mx-auto">
+    <pagination-controls (pageChange)="p = $event" (pageBoundsCorrection)="p = $event"></pagination-controls>
+  </div>
+</div>
+
+
