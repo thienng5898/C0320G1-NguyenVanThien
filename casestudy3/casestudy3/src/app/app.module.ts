@@ -21,6 +21,11 @@ import { EmployeeDeleteComponent } from './components/employees/employee-delete/
 import {EmployeeEditComponent} from './components/employees/employee-edit/employee-edit.component';
 import { CustomerDeleteComponent } from './components/customer/customer-delete/customer-delete.component';
 import { CustomerEditComponent } from './components/customer/customer-edit/customer-edit.component';
+import { FacilityDeleteComponent } from './components/facility/facility-delete/facility-delete.component';
+import { FacilityEditComponent } from './components/facility/facility-edit/facility-edit.component';
+import { ContractAddComponent } from './components/contract/contract-add/contract-add.component';
+import { ContractListComponent } from './components/contract/contract-list/contract-list.component';
+import { ContractDeleteComponent } from './components/contract/contract-delete/contract-delete.component';
 
 
 @NgModule({
@@ -37,7 +42,12 @@ import { CustomerEditComponent } from './components/customer/customer-edit/custo
     EmployeeDeleteComponent,
     EmployeeEditComponent,
     CustomerDeleteComponent,
-    CustomerEditComponent
+    CustomerEditComponent,
+    FacilityDeleteComponent,
+    FacilityEditComponent,
+    ContractAddComponent,
+    ContractListComponent,
+    ContractDeleteComponent
   ],
   imports: [
     BrowserModule,

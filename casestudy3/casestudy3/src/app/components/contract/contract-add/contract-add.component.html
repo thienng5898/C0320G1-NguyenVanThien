@@ -1,0 +1,121 @@
+<h3 class="text-center">Thêm Mới Hợp Đồng</h3>
+
+<div class="container">
+  <form [formGroup]="contractAddForm" (ngSubmit)="onSubmit()" class=" w-75 mx-auto">
+    <div class="form-group row">
+      <label class="input-group ">
+        <div class="input-group-append">
+          <span class="input-group-text">Mã Nhân Viên</span>
+        </div>
+        <select  formControlName="id_employee" class="custom-select">
+          <option *ngFor="let employee of employees"
+                  [value]="employee.id_employee">{{employee.id_employee}} </option>
+        </select>
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="contractAddForm.get('id_employee').invalid && contractAddForm.get('id_employee').touched">
+      Mã Khách Hàng không được để trống
+    </div>
+    <div class="form-group row">
+      <label class="input-group ">
+        <div class="input-group-append">
+          <span class="input-group-text">Mã Khách Hàng</span>
+        </div>
+        <select  formControlName="id_customer" class="custom-select">
+          <option  *ngFor="let customer of customers"
+                  [value]="customer.id_customer">{{customer.id_customer}}</option>
+        </select>
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="contractAddForm.get('id_customer').invalid && contractAddForm.get('id_customer').touched">
+      Mã Khách Hàng không được để trống
+    </div>
+    <div class="form-group row">
+      <label class="input-group ">
+        <div class="input-group-append">
+          <span class="input-group-text">Mã Dịch Vụ</span>
+        </div>
+        <select formControlName="id_service" class="custom-select">
+          <option selected *ngFor="let service of services"
+                  [value]="service.id_service">{{service.id_service}}</option>
+        </select>
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="contractAddForm.get('id_service').invalid && contractAddForm.get('id_service').touched">
+      Mã Dịch Vụ không được để trống
+    </div>
+    <div class="form-group row">
+      <label class="input-group">
+        <div class="input-group-append">
+          <span class="input-group-text"> Ngày Bắt Đầu Hợp Đồng</span>
+        </div>
+        <mat-form-field>
+          <input [min]="start" class="form-control" formControlName="startDate" matInput [matDatepicker]="myDatepicker1">
+          <mat-datepicker-toggle matSuffix [for]="myDatepicker1"></mat-datepicker-toggle>
+          <mat-datepicker #myDatepicker1></mat-datepicker>
+        </mat-form-field>
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="contractAddForm.get('startDate').invalid && contractAddForm.get('startDate').touched">
+      Ngày Bắt Đầu Hợp Đồng không được để trống
+    </div>
+    <div class="form-group row">
+      <label class="input-group">
+        <div class="input-group-append">
+          <span class="input-group-text"> Ngày Kết Thúc Hợp Đồng</span>
+        </div>
+        <mat-form-field>
+          <input [min]="start" class="form-control" formControlName="endDate" matInput [matDatepicker]="myDatepicker">
+          <mat-datepicker-toggle matSuffix [for]="myDatepicker"></mat-datepicker-toggle>
+          <mat-datepicker #myDatepicker></mat-datepicker>
+        </mat-form-field>
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="contractAddForm.get('endDate').invalid && contractAddForm.get('endDate').touched">
+      Ngày Kết Thúc Hợp Đồng không được để trống
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="contractAddForm.hasError('invalidStartDate')">
+      Ngày Kết Thúc Hợp Đồng phải lớn hơn ngày bắt đầu
+    </div>
+
+    <div class="form-group row">
+      <label class="input-group">
+        <div class="input-group-append">
+          <span class="input-group-text" >Tiền Đặt Cọc</span>
+        </div>
+        <input type="number" class="form-control" formControlName="deposit">
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="contractAddForm.get('deposit').invalid && contractAddForm.get('deposit').touched">
+      <span *ngIf="contractAddForm.get('deposit').hasError('required')">Tiền Đặt Cọc không được để trống</span>
+      <span *ngIf="contractAddForm.get('deposit').hasError('min')">Tiền Đặt Cọc Không Được Âm</span>
+    </div>
+    <div class="form-group row">
+      <label class="input-group">
+        <div class="input-group-append">
+          <span class="input-group-text">Tổng Chi Phí</span>
+        </div>
+        <input type="number" class="form-control" formControlName="total">
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="contractAddForm.get('total').invalid && contractAddForm.get('total').touched">
+      <span *ngIf="contractAddForm.get('total').hasError('required')">Tổng Phí không được để trống</span>
+      <span *ngIf="contractAddForm.get('total').hasError('min')">Tổng Phí Không Được Âm</span>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <input [disabled]="contractAddForm.invalid" type="submit" class="btn btn-success" value="Thêm Mới">
+      <button mat-dialog-close class="btn btn-primary ml-3">Hủy</button>
+    </div>
+  </form>
+</div>
+
+
+

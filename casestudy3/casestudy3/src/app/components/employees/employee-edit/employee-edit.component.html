@@ -151,6 +151,7 @@
     <div class="alert alert-danger" role="alert"
          *ngIf="employeeEditForm.get('salary').invalid && employeeEditForm.get('salary').touched">
       <span *ngIf="employeeEditForm.get('salary').hasError('required')">Lương không được để trống</span>
+      <span *ngIf="employeeEditForm.get('salary').hasError('pattern')">Lương không được âm !</span>
       <span *ngIf="employeeEditForm.get('salary').hasError('min')">Lương không được âm !</span>
     </div>
     <div class="row d-flex justify-content-center">

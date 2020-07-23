@@ -112,7 +112,7 @@
     </div>
     <div class="alert alert-danger" role="alert"
          *ngIf="customerForm.get('address').invalid && customerForm.get('address').touched">
-      <span *ngIf="customerForm.get('salary').hasError('required')">Địa chỉ không được để trống</span>
+      <span *ngIf="customerForm.get('address').hasError('required')">Địa chỉ không được để trống</span>
     </div>
     <div class="row d-flex justify-content-center">
       <input [disabled]="customerForm.invalid" type="submit" class="btn btn-success" value="Thêm Mới">

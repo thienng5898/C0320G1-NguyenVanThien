@@ -31,12 +31,12 @@ export class EmployeeAddComponent implements OnInit {
       degree: ['', Validators.required],
       position: ['', Validators.required],
       part: ['', Validators.required],
-      salary: ['', [Validators.required, Validators.min(0)]]
+      salary: ['', [Validators.required, Validators.pattern(/(^\d*$)/), Validators.min(0)]]
     });
   }
 
   onSubmit() {
-    this.employeeService.addEmployee(this.employeeForm.value).subscribe((next) => {
+    this.employeeService.addEmployee(this.employeeForm.value).subscribe(() => {
       this.dialogRef.close();
       }
     );

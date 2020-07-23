@@ -1,0 +1,45 @@
+<div class="row justify-content-between">
+  <h2>Danh Sách Các Hợp Đồng</h2>
+  <div class="d-flex">
+    <label>
+      <input class="form-control mr-2 border border-primary" type="text"
+             style="width: 300px;"  [(ngModel)]="term">
+    </label>
+    <button  class="btn btn-primary"><i class="fas fa-search mr-2"></i>Tìm Kiếm</button>
+  </div>
+</div>
+
+<div class="row mt-4">
+  <button class="btn btn-success" (click)="openDialogAdd()" ><span class="fas fa-user-plus mr-2" ></span>Thêm mới</button>
+  <table class="table mt-4 table-striped" style="font-size: 12px; font-weight: bolder">
+    <thead>
+    <tr class="text-center">
+      <th>Mã Nhân Viên</th>
+      <th>Mã Khách Hàng</th>
+      <th>Mã Dịch Vụ</th>
+      <th>Ngày Bắt Đầu</th>
+      <th>Ngày Kết Thúc</th>
+      <th>Đặt Cọc</th>
+      <th>Tổng Chi Phí</th>
+      <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let contract of contracts |filter:term| paginate: { itemsPerPage: 3, currentPage: p }" class="text-center">
+      <td>{{contract.id_employee}}</td>
+      <td>{{contract.id_customer}}</td>
+      <td>{{contract.id_service }}</td>
+      <td>{{contract.startDate | date: 'dd/MM/yyyy'}}</td>
+      <td>{{contract.endDate | date: 'dd/MM/yyyy'}}</td>
+      <td>{{contract.deposit}}</td>
+      <td>{{contract.total}}</td>
+      <td class="d-flex  justify-content-center">
+        <button (click)="openDialogDelete(contract.id)" class="btn btn-danger mr-2"><span class="fas fa-trash"></span></button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+  <div class="p-3 mx-auto">
+    <pagination-controls (pageChange)="p = $event" (pageBoundsCorrection)="p = $event"></pagination-controls>
+  </div>
+</div>

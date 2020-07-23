@@ -1,4 +1,16 @@
 {
+  "contracts": [
+    {
+      "id_employee": "NV-2301",
+      "id_customer": "KH-1230",
+      "id_service": "DV-1312",
+      "startDate": "2020-07-23T17:00:00.000Z",
+      "endDate": "2020-07-24T17:00:00.000Z",
+      "deposit": "500",
+      "total": "3000000",
+      "id": 2
+    }
+  ],
   "IEmployees": [
     {
       "id_employee": "NV-1564",
@@ -173,8 +185,8 @@
   "customers": [
     {
       "id_customer": "KH-1230",
-      "name": "Thuận",
-      "type_customer": "Diamond",
+      "name": "Thiện",
+      "type_customer": "Gold",
       "birthday": "1997-02-05T17:00:00.000Z",
       "id_card": "123456789",
       "phone": "0901235648",
@@ -192,6 +204,41 @@
       "email": "tien@da.com",
       "address": "Đà Nẵng",
       "id": 3
+    }
+  ],
+  "facilities": [
+    {
+      "id_service": "DV-1524",
+      "name": "King",
+      "area": 50,
+      "number_floor": 2,
+      "number_max_people": 4,
+      "type_rent": "Ngày",
+      "total_rent": 800000,
+      "status": "Còn Phòng",
+      "id": 1
+    },
+    {
+      "id_service": "DV-1312",
+      "name": "princess",
+      "area": 25,
+      "number_floor": 2,
+      "number_max_people": 3,
+      "type_rent": "Ngày",
+      "total_rent": 500000,
+      "status": "Đang Chờ",
+      "id": 3
+    },
+    {
+      "id_service": "DV-1320",
+      "name": "Wind",
+      "area": 40,
+      "number_floor": 3,
+      "number_max_people": 6,
+      "type_rent": "Giờ",
+      "total_rent": 1200000,
+      "status": "Còn Phòng",
+      "id": 4
     }
   ]
 }

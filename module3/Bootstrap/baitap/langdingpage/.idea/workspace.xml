@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5afa3784-407a-4dfe-b88f-80440741b0b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/components/customer/customer-add/customer-add.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/components/customer/customer-add/customer-add.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/components/customer/customer-edit/customer-edit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/components/customer/customer-edit/customer-edit.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/components/customer/customer-list/customer-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/components/customer/customer-list/customer-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/components/employees/employee-add/employee-add.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/components/employees/employee-add/employee-add.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/components/employees/employee-add/employee-add.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/components/employees/employee-add/employee-add.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/components/employees/employee-edit/employee-edit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/components/employees/employee-edit/employee-edit.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/components/employees/employee-edit/employee-edit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/components/employees/employee-edit/employee-edit.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/components/facility/facility-add/facility-add.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/components/facility/facility-add/facility-add.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/components/facility/facility-add/facility-add.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/components/facility/facility-add/facility-add.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/components/facility/facility-add/facility-add.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/components/facility/facility-add/facility-add.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/components/facility/facility-list/facility-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/components/facility/facility-list/facility-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/components/facility/facility-list/facility-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/components/facility/facility-list/facility-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/material.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/material.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/services/contract.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/services/contract.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/services/employee.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/services/employee.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/services/facility.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../casestudy3/casestudy3/src/app/services/facility.service.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1f5pwAfJKGaNBnJiXnCCEywMmdV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5afa3784-407a-4dfe-b88f-80440741b0b0" name="Default Changelist" comment="" />
+      <created>1595518043442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595518043442</updated>
+      <workItem from="1595518047464" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1595518076884">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1595518076884" />
+  </component>
+</project>
