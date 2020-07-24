@@ -1,14 +1,24 @@
 {
   "contracts": [
     {
-      "id_employee": "NV-2301",
-      "id_customer": "KH-1230",
+      "id_employee": "NV-2031",
+      "id_customer": "KH-1200",
       "id_service": "DV-1312",
       "startDate": "2020-07-23T17:00:00.000Z",
-      "endDate": "2020-07-24T17:00:00.000Z",
-      "deposit": "500",
-      "total": "3000000",
-      "id": 2
+      "endDate": "2020-07-29T17:00:00.000Z",
+      "deposit": 500000,
+      "total": 3000000,
+      "id": 3
+    },
+    {
+      "id_employee": "NV-1236",
+      "id_customer": "KH-1200",
+      "id_service": "DV-1524",
+      "startDate": "2020-07-23T17:00:00.000Z",
+      "endDate": "2020-07-26T17:00:00.000Z",
+      "deposit": 300000,
+      "total": 2400000,
+      "id": 4
     }
   ],
   "IEmployees": [
@@ -239,6 +249,17 @@
       "total_rent": 1200000,
       "status": "Còn Phòng",
       "id": 4
+    },
+    {
+      "id_service": "DV-3621",
+      "name": "Qingchan",
+      "area": 20,
+      "number_floor": 4,
+      "number_max_people": 2,
+      "type_rent": "Ngày",
+      "total_rent": 900000,
+      "status": "Còn Phòng",
+      "id": 5
     }
   ]
 }

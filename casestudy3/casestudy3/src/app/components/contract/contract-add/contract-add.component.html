@@ -37,7 +37,7 @@
         <div class="input-group-append">
           <span class="input-group-text">Mã Dịch Vụ</span>
         </div>
-        <select formControlName="id_service" class="custom-select">
+        <select (change)="onChange()"  formControlName="id_service" class="custom-select">
           <option selected *ngFor="let service of services"
                   [value]="service.id_service">{{service.id_service}}</option>
         </select>
@@ -53,7 +53,7 @@
           <span class="input-group-text"> Ngày Bắt Đầu Hợp Đồng</span>
         </div>
         <mat-form-field>
-          <input [min]="start" class="form-control" formControlName="startDate" matInput [matDatepicker]="myDatepicker1">
+          <input [min]="start" (dateChange)="onChange()" class="form-control" formControlName="startDate" matInput [matDatepicker]="myDatepicker1">
           <mat-datepicker-toggle matSuffix [for]="myDatepicker1"></mat-datepicker-toggle>
           <mat-datepicker #myDatepicker1></mat-datepicker>
         </mat-form-field>
@@ -69,7 +69,7 @@
           <span class="input-group-text"> Ngày Kết Thúc Hợp Đồng</span>
         </div>
         <mat-form-field>
-          <input [min]="start" class="form-control" formControlName="endDate" matInput [matDatepicker]="myDatepicker">
+          <input [min]="start" (dateChange)="onChange()" class="form-control" formControlName="endDate" matInput [matDatepicker]="myDatepicker">
           <mat-datepicker-toggle matSuffix [for]="myDatepicker"></mat-datepicker-toggle>
           <mat-datepicker #myDatepicker></mat-datepicker>
         </mat-form-field>
@@ -89,7 +89,7 @@
         <div class="input-group-append">
           <span class="input-group-text" >Tiền Đặt Cọc</span>
         </div>
-        <input type="number" class="form-control" formControlName="deposit">
+        <input type="number" class="form-control" formControlName="deposit" >
       </label>
     </div>
     <div class="alert alert-danger" role="alert"
@@ -97,12 +97,16 @@
       <span *ngIf="contractAddForm.get('deposit').hasError('required')">Tiền Đặt Cọc không được để trống</span>
       <span *ngIf="contractAddForm.get('deposit').hasError('min')">Tiền Đặt Cọc Không Được Âm</span>
     </div>
+    <div class="alert alert-danger" role="alert"
+         *ngIf="contractAddForm.hasError('checkDeposit')">
+     Tiền Cọc Không được Lớn Hơn Tổng Chi Phí
+    </div>
     <div class="form-group row">
       <label class="input-group">
         <div class="input-group-append">
           <span class="input-group-text">Tổng Chi Phí</span>
         </div>
-        <input type="number" class="form-control" formControlName="total">
+        <input type="number" class="form-control" formControlName="total" readonly>
       </label>
     </div>
     <div class="alert alert-danger" role="alert"

@@ -26,6 +26,8 @@ import { FacilityEditComponent } from './components/facility/facility-edit/facil
 import { ContractAddComponent } from './components/contract/contract-add/contract-add.component';
 import { ContractListComponent } from './components/contract/contract-list/contract-list.component';
 import { ContractDeleteComponent } from './components/contract/contract-delete/contract-delete.component';
+import { CustomerUserComponent } from './components/customer/customer-user/customer-user.component';
+
 
 
 @NgModule({
@@ -47,7 +49,8 @@ import { ContractDeleteComponent } from './components/contract/contract-delete/c
     FacilityEditComponent,
     ContractAddComponent,
     ContractListComponent,
-    ContractDeleteComponent
+    ContractDeleteComponent,
+    CustomerUserComponent,
   ],
   imports: [
     BrowserModule,

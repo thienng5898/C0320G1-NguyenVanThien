@@ -5,6 +5,7 @@ import {HttpClient, HttpHeaders} from '@angular/common/http';
 
 
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -35,5 +36,8 @@ export class CustomerService {
 
   editCustomer(customer, customerId): Observable<ICustomer> {
     return this.http.put<ICustomer>(this.API + '/' + customerId, customer) ;
+  }
+  getCustomerByIdCustomer(customerId): Observable<ICustomer> {
+    return this.http.get<ICustomer>(this.API + '?id_customer=' + customerId);
   }
 }

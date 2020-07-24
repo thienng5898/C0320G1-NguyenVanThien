@@ -12,6 +12,7 @@ import {PageNotFoundComponent} from './components/page-not-found/page-not-found.
 import {ReactiveFormsModule} from '@angular/forms';
 import {MaterialModule} from './material.module';
 import {ContractListComponent} from './components/contract/contract-list/contract-list.component';
+import {CustomerUserComponent} from './components/customer/customer-user/customer-user.component';
 
 
 
@@ -20,6 +21,7 @@ const routes: Routes = [{path: '', component: HomeComponent},
   {path: 'customer-list', component: CustomerListComponent},
   {path: 'facility-list', component: FacilityListComponent},
   {path: 'contract-list', component: ContractListComponent},
+  {path: 'customer-user', component: CustomerUserComponent},
 
 
 

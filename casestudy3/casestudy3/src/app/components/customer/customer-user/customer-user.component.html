@@ -1,0 +1,42 @@
+<div class="row justify-content-between">
+  <h2>Danh Sách Khách Hàng Đang sử dụng Dịch Vụ</h2>
+  <div class="d-flex">
+    <label>
+      <input class="form-control mr-2 border border-primary" type="text"
+             style="width: 300px;" placeholder="Tên Khách Hàng" [(ngModel)]="term">
+    </label>
+  </div>
+</div>
+
+<div class="row mt-4">
+  <table class="table mt-4 table-striped" style="font-size: 12px; font-weight: bolder">
+    <thead>
+    <tr class="text-center">
+      <th>Mã Khách Hàng</th>
+      <th>Loại Khách Hàng</th>
+      <th>Tên</th>
+      <th>Tên Dịch Vụ Sử Dụng</th>
+      <th>Mã Dịch Vụ</th>
+      <th>Số Điện Thoại</th>
+      <th>Email</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let customer of customerList |filter:term| paginate: { itemsPerPage: 3, currentPage: p }; index as i" class="text-center" >
+      <td>{{customer.id_customer}}</td>
+      <td>{{customer.type_customer}}</td>
+      <td>{{customer.name}}</td>
+      <td>{{facilityList[i].name}}</td>
+      <td>{{facilityList[i].id_service}}</td>
+      <td>{{customer.phone}}</td>
+      <td>{{customer.email}}</td>
+    </tr>
+    </tbody>
+  </table>
+  <div class="p-3 mx-auto">
+    <pagination-controls (pageChange)="p = $event" (pageBoundsCorrection)="p = $event"></pagination-controls>
+  </div>
+</div>
+
+
+

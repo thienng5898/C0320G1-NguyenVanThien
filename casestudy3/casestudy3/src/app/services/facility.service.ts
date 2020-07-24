@@ -30,7 +30,9 @@ export class FacilityService {
   getServiceById(serviceId): Observable<IService> {
     return this.http.get<IService>(this.API + '/' + serviceId);
   }
-
+  getServiceByIdService(serviceId): Observable<IService> {
+    return this.http.get<IService>(this.API + '?id_service=' + serviceId);
+  }
   deleteService(serviceId): Observable<IService> {
     return this.http.delete<IService>(this.API + '/' + serviceId);
   }

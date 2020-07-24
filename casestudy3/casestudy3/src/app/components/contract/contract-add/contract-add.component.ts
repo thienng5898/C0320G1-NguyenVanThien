@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 import {ContractService} from '../../../services/contract.service';
 
 import {AbstractControl, FormBuilder, FormGroup, ValidationErrors, Validators} from '@angular/forms';
@@ -10,6 +10,7 @@ import {CustomerService} from '../../../services/customer.service';
 import {FacilityService} from '../../../services/facility.service';
 import {IContract} from '../../../models/contract';
 import {MatDialogRef} from '@angular/material/dialog';
+import {MatDatepickerInputEvent} from '@angular/material/datepicker';
 
 @Component({
   selector: 'app-contract-add',
@@ -17,11 +18,17 @@ import {MatDialogRef} from '@angular/material/dialog';
   styleUrls: ['./contract-add.component.css']
 })
 export class ContractAddComponent implements OnInit {
+
+  @Output()
+  dateChange: EventEmitter<MatDatepickerInputEvent<any>>;
   contractAddForm: FormGroup;
   start = new Date();
   employees: IEmployee[];
   customers: ICustomer[];
   services: IService[];
+  startDay: string;
+  endDay: string;
+  total: number;
 
   constructor(private fb: FormBuilder,
               private employeeService: EmployeeService,
@@ -33,15 +40,15 @@ export class ContractAddComponent implements OnInit {
 
   ngOnInit() {
     this.contractAddForm = this.fb.group({
-      id_employee: ['', Validators.required],
-      id_customer: ['', Validators.required],
-      id_service: ['', Validators.required],
-      startDate: ['', Validators.required],
-      endDate: ['', Validators.required],
-      deposit: ['', [Validators.required, Validators.min(0)]],
-      total: ['', [Validators.required, Validators.min(0)]],
-      }, {validator: checkStartDate}
-    );
+        id_employee: ['', Validators.required],
+        id_customer: ['', Validators.required],
+        id_service: ['', Validators.required],
+        startDate: ['', Validators.required],
+        endDate: ['', Validators.required],
+        deposit: ['', [Validators.required, Validators.min(0)]],
+        total: ['', [Validators.required, Validators.min(0)]],
+      }, {validators: [checkDeposit, checkStartDate]}) ;
+
 
     this.employeeService.getAllEmployees().subscribe(
       data => {
@@ -58,19 +65,50 @@ export class ContractAddComponent implements OnInit {
       });
   }
 
-
-  onSubmit() {
-    this.contractService.addContract(this.contractAddForm.value).subscribe(() => {
-      this.dialogRef.close();
-    } );
+  onChange() {
+    const contract = this.contractAddForm.value;
+    const idService = contract.id_service;
+    if (idService !== '' && contract.ngaybatdau !== '' && contract.ngayketthuc !== '') {
+      this.facilityService.getServiceByIdService(idService).subscribe(
+        data => {
+          const facility = data[0];
+          const startDate = new Date(contract.startDate).getTime() / 86400000;
+          const endDate = new Date(contract.endDate).getTime() / 86400000;
+          const dates = endDate - startDate;
+          const tong = facility.total_rent * dates;
+          this.contractAddForm.patchValue({
+            total: tong
+          });
+        }
+      );
+    }
   }
-}
-function checkStartDate(formGroup: AbstractControl): ValidationErrors | null {
+
+    onSubmit() {
+      this.contractService.addContract(this.contractAddForm.value).subscribe(() => {
+        this.dialogRef.close();
+      });
+    }
+  }
+
+function
+
+  checkStartDate(formGroup: AbstractControl): ValidationErrors | null {
+    const contract: IContract = formGroup.value;
+    const endDate = new Date(contract.endDate).getTime();
+    const startDate = new Date(contract.startDate).getTime();
+    if (startDate > endDate) {
+      return {invalidStartDate: true};
+    }
+    return null;
+  }
+
+function checkDeposit(formGroup: AbstractControl): ValidationErrors | null {
   const contract: IContract = formGroup.value;
-  let endDate = new Date(contract.endDate).getTime();
-  let startDate = new Date(contract.startDate).getTime();
-  if (startDate - endDate > -86400000) {
-    return {invalidStartDate: true};
+  const deposit = contract.deposit ;
+  const total = contract.total ;
+  if (deposit - total >= 0) {
+    return {checkDeposit: true};
   }
   return null;
 }
