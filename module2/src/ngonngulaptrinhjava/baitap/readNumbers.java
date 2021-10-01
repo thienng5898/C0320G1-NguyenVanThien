@@ -161,7 +161,7 @@ public class readNumbers {
         }
     }
     public static String read0To999(int num ){
-        if (num >=10 && num <100){
+        if (num >=0 && num <100){
             return read0To99(num) ;
         }else if (num <1000){
             return read100To999(num) ;

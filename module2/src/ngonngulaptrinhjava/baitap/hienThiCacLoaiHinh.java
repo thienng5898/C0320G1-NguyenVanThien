@@ -18,9 +18,12 @@ public class hienThiCacLoaiHinh {
             choice = Integer.parseInt(input.nextLine());
             switch (choice){
                 case 1 :    System.out.println("Draw the rectangle");
-                    System.out.println("* * * * * *");
-                    System.out.println("* * * * * *");
-                    System.out.println("* * * * * *");
+                    for (int i = 0 ; i <= 2; i++){
+                        for ( int j= 0; j<=5; j++){
+                            System.out.print("*");
+                        }
+                        System.out.println("*");
+                    }
                     break;
                 case 2:    System.out.println(" Draw the triangle botton-left");
                     for(int i=1; i<=5; i++){
